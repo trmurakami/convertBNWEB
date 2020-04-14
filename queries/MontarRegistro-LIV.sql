@@ -14,8 +14,9 @@ SELECT
 	ace.data_pub as '260c', 
 	ace.colacao as '300a',
 	ace.anexo as '300e',
-	ace.serie as '490a', 
+	CONCAT (ace.serie_art,' ', ace.serie) as '490a',
 	ace.notas as '500a',
+	ace.resumo as '520a',
 	ass.assuntos as '650a',
 	links.links as '856'
 FROM 
