@@ -2,6 +2,7 @@ SELECT
 	ace.cod_acervo,
 	ace.cod_acervo as '001',
 	idiom.idiomas as '008-35-37',
+	ace.is_barras as '020a',
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
 	aut.autores as '100',
 	ace.titulo_artigo as '2452', 
