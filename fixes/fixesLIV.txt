@@ -1,3 +1,1 @@
-
-
-marc_add('245', a , $.my.title.field, c , $.my.author.field)
+marc_add('245', a , $.245a)
