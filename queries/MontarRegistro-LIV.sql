@@ -19,35 +19,35 @@ FROM
 dbo.tbibace0 AS ace
 LEFT JOIN
 (
-    SELECT codigo, STRING_AGG(nome, '|') as assuntos
+    SELECT codigo, STRING_AGG(nome, '--') as assuntos
 	FROM [bnweb].[dbo].[vbibapiace0_assuntos]
 	GROUP BY codigo
 ) ass
 ON ace.cod_acervo=ass.codigo
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONCAT(nome, ';',tipo,';', qualificacao), '|') as autores
+	SELECT codigo, STRING_AGG(CONCAT(nome, '--',tipo,'--', qualificacao), ';-;') as autores
 	FROM [bnweb].[dbo].[vbibapiace0_autores]
 	GROUP BY codigo
 ) aut
 ON ace.cod_acervo=aut.codigo
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(nome, '|') as editores
+	SELECT codigo, STRING_AGG(nome, '--') as editores
 	FROM [bnweb].[dbo].[vbibapiace0_editores]
 	GROUP BY codigo
 ) edit
 ON ace.cod_acervo=edit.codigo
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(nome, '|') as idiomas
+	SELECT codigo, STRING_AGG(nome, '--') as idiomas
 	FROM [bnweb].[dbo].[vbibapiace0_idiomas]
 	GROUP BY codigo
 ) idiom
 ON ace.cod_acervo=idiom.codigo
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONCAT(url, ';;',descricao), '|') as links
+	SELECT codigo, STRING_AGG(CONCAT(url, '--',descricao), ';-;') as links
 	FROM [bnweb].[dbo].[vbibapiace0_links]
 	GROUP BY codigo
 ) links
