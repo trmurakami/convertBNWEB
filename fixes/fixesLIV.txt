@@ -1,3 +1,8 @@
+marc_add('035', z , $.035z)
 marc_add('245', a , $.245a)
 marc_add('250', a , $.250a)
 marc_add('260', a , $.260c, b , $.260b, c , $.260c)
+marc_add('300', a , $.300a)
+marc_add('490', a , $.490a)
+marc_add('500', a , $.500a)
+marc_add('650', a , $.650a)
