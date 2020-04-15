@@ -2,6 +2,7 @@ SELECT
 	ace.cod_acervo,
 	ace.visivel as 'visivel',
 	ace.reserva as 'reserva',
+	ace.nacional as 'nacional',
 	ace.cod_acervo as '001',
 	idiom.idiomas as '008-35-37',
 	ace.is_barras as '020a',
