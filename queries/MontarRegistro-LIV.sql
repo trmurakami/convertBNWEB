@@ -1,5 +1,7 @@
 SELECT 
 	ace.cod_acervo,
+	ace.visivel as 'visivel',
+	ace.reserva as 'reserva',
 	ace.cod_acervo as '001',
 	idiom.idiomas as '008-35-37',
 	ace.is_barras as '020a',
@@ -15,6 +17,7 @@ SELECT
 	ace.colacao as '300a',
 	ace.anexo as '300e',
 	CONCAT (ace.serie_art,' ', ace.serie) as '490a',
+	ace.volume_qta as '490v',
 	ace.notas as '500a',
 	ace.resumo as '520a',
 	ass.assuntos as '650a',
