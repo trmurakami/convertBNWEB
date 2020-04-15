@@ -8,10 +8,10 @@ split_field('100', ';-;')
 
 split_field($.100.0, '--')
 if any_equal($.100.0.*,'PF')
-  marc_add('100', a , $.100.0.0)
+  marc_add('100', ind1, '1', a , $.100.0.0)
 end
 if any_equal($.100.0.*,'PJ')
-  marc_add('110', a , $.100.0.0)
+  marc_add('110', ind1, '1', a , $.100.0.0)
 end
 
 split_field(titulo, ':')
@@ -54,90 +54,90 @@ marc_add('650', ind2, '4', a , $.assuntos.20)
 
 split_field($.100.1, '--')
 if any_equal($.100.1.*,'PF')
-  marc_add('700', a , $.100.1.0)
+  marc_add('700', ind1, '1', a , $.100.1.0)
 end
 if any_equal($.100.1.*,'PJ')
-  marc_add('710', a , $.100.1.0)
+  marc_add('710', ind1, '1', a , $.100.1.0)
 end
 
 split_field($.100.2, '--')
 if any_equal($.100.2.*,'PF')
-  marc_add('700', a , $.100.2.0)
+  marc_add('700', ind1, '1', a , $.100.2.0)
 end
 if any_equal($.100.2.*,'PJ')
-  marc_add('710', a , $.100.2.0)
+  marc_add('710', ind1, '1', a , $.100.2.0)
 end
 
 split_field($.100.3, '--')
 if any_equal($.100.3.*,'PF')
-  marc_add('700', a , $.100.3.0)
+  marc_add('700', ind1, '1', a , $.100.3.0)
 end
 if any_equal($.100.3.*,'PJ')
-  marc_add('710', a , $.100.3.0)
+  marc_add('710', ind1, '1', a , $.100.3.0)
 end
 
 split_field($.100.4, '--')
 if any_equal($.100.4.*,'PF')
-  marc_add('700', a , $.100.4.0)
+  marc_add('700', ind1, '1', a , $.100.4.0)
 end
 if any_equal($.100.4.*,'PJ')
-  marc_add('710', a , $.100.4.0)
+  marc_add('710', ind1, '1', a , $.100.4.0)
 end
 
 split_field($.100.5, '--')
 if any_equal($.100.5.*,'PF')
-  marc_add('700', a , $.100.5.0)
+  marc_add('700', ind1, '1', a , $.100.5.0)
 end
 if any_equal($.100.5.*,'PJ')
-  marc_add('710', a , $.100.5.0)
+  marc_add('710', ind1, '1', a , $.100.5.0)
 end
 
 split_field($.100.6, '--')
 if any_equal($.100.6.*,'PF')
-  marc_add('700', a , $.100.6.0)
+  marc_add('700', ind1, '1', a , $.100.6.0)
 end
 if any_equal($.100.6.*,'PJ')
-  marc_add('710', a , $.100.6.0)
+  marc_add('710', ind1, '1', a , $.100.6.0)
 end
 
 split_field($.100.7, '--')
 if any_equal($.100.7.*,'PF')
-  marc_add('700', a , $.100.7.0)
+  marc_add('700', ind1, '1', a , $.100.7.0)
 end
 if any_equal($.100.7.*,'PJ')
-  marc_add('710', a , $.100.7.0)
+  marc_add('710', ind1, '1', a , $.100.7.0)
 end
 
 split_field($.100.8, '--')
 if any_equal($.100.8.*,'PF')
-  marc_add('700', a , $.100.8.0)
+  marc_add('700', ind1, '1', a , $.100.8.0)
 end
 if any_equal($.100.8.*,'PJ')
-  marc_add('710', a , $.100.8.0)
+  marc_add('710', ind1, '1', a , $.100.8.0)
 end
 
 split_field($.100.9, '--')
 if any_equal($.100.9.*,'PF')
-  marc_add('700', a , $.100.9.0)
+  marc_add('700', ind1, '1', a , $.100.9.0)
 end
 if any_equal($.100.9.*,'PJ')
-  marc_add('710', a , $.100.9.0)
+  marc_add('710', ind1, '1', a , $.100.9.0)
 end
 
 split_field($.100.10, '--')
 if any_equal($.100.10.*,'PF')
-  marc_add('700', a , $.100.10.0)
+  marc_add('700', ind1, '1', a , $.100.10.0)
 end
 if any_equal($.100.10.*,'PJ')
-  marc_add('710', a , $.100.10.0)
+  marc_add('710', ind1, '1', a , $.100.10.0)
 end
 
 split_field($.100.11, '--')
 if any_equal($.100.11.*,'PF')
-  marc_add('700', a , $.100.11.0)
+  marc_add('700', ind1, '1', a , $.100.11.0)
 end
 if any_equal($.100.11.*,'PJ')
-  marc_add('710', a , $.100.11.0)
+  marc_add('710', ind1, '1', a , $.100.11.0)
 end
 
 marc_add('765', t , $.765t)
