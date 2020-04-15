@@ -22,6 +22,7 @@ SELECT
 	ace.notas as '500a',
 	ace.resumo as '520a',
 	ass.assuntos as '650a',
+	ace.titulo_original as '765t',
 	links.links as '856'
 FROM 
 dbo.tbibace0 AS ace
