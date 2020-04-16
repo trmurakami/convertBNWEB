@@ -30,7 +30,8 @@ SELECT
 	ISNULL(ace.titulo_original, '') as '765t',
 	ISNULL(links.links, '') as '856',
 	ISNULL(anexos.anexos, '') as 'anexos',
-	ISNULL(partes.partes, '') as 'partes'
+	ISNULL(partes.partes, '') as 'partes',
+	ISNULL(volumes.volumes, '') as 'volumes'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -88,4 +89,11 @@ LEFT JOIN
 	GROUP BY codigo
 ) partes
 ON ace.cod_acervo=partes.codigo
+LEFT JOIN
+(
+	SELECT codigo, STRING_AGG(CAST(volume as varchar(max)), '--') as volumes
+	FROM [bnweb].[dbo].[vbibapiace0_volumes]
+	GROUP BY codigo
+) volumes
+ON ace.cod_acervo=volumes.codigo
 WHERE tipo = 'LIV'
