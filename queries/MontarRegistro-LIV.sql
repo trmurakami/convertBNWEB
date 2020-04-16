@@ -6,6 +6,8 @@ SELECT
 	ace.cod_unidade as 'cod_unidade',
 	ace.cod_acervo as '001',
 	idiom.idiomas as '008-35-37',
+	cla.classificacao as '090a',
+	cla.cutter as '090b',
 	ace.is_barras as '020a',
 	ace.is_cod as '020aOld',
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
@@ -64,4 +66,5 @@ LEFT JOIN
 	GROUP BY codigo
 ) links
 ON ace.cod_acervo=links.codigo
+LEFT JOIN bnweb.dbo.tbibcla0 cla ON ace.cod_acervo=cla.cod_acervo
 WHERE tipo = 'LIV'
