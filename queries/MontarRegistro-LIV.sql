@@ -28,7 +28,9 @@ SELECT
 	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
 	ISNULL(ass.assuntos, '') as '650a',
 	ISNULL(ace.titulo_original, '') as '765t',
-	ISNULL(links.links, '') as '856'
+	ISNULL(links.links, '') as '856',
+	ISNULL(anexos.anexos, '') as 'anexos',
+	ISNULL(partes.partes, '') as 'partes'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -72,4 +74,18 @@ LEFT JOIN (
 	GROUP BY cod_acervo
 ) cla
 ON ace.cod_acervo=cla.cod_acervo
+LEFT JOIN
+(
+	SELECT codigo, STRING_AGG(descricao, '--') as anexos
+	FROM [bnweb].[dbo].[vbibapiace0_anexos]
+	GROUP BY codigo
+) anexos
+ON ace.cod_acervo=anexos.codigo
+LEFT JOIN
+(
+	SELECT codigo, STRING_AGG(CAST(titulo as varchar(max)), '--') as partes
+	FROM [bnweb].[dbo].[vbibapiace0_partes]
+	GROUP BY codigo
+) partes
+ON ace.cod_acervo=partes.codigo
 WHERE tipo = 'LIV'
