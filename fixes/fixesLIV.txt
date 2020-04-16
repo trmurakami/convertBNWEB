@@ -5,10 +5,16 @@ if any_equal(nacional,'1')
   marc_set('008_/15-17','bl#')
 end
 
+if any_equal(008-35-37,'Português')
+  marc_set('008_/35-37','por')
+end
 
 marc_add('020', a , $.020a)
 marc_add('020', a , $.020aOld)
 marc_add('035', z , $.035z)
+
+lookup("008-35-37","fixes/dic_language.txt", sep_char:'|')
+marc_add('041', a , $.008-35-37)
 
 marc_add('090', a , $.090a)
 
