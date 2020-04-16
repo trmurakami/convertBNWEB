@@ -1,5 +1,11 @@
 marc_add('001', _ , $.001)
 marc_add('008', _ ,'200415s9999##################000#0#####|')
+
+if any_equal(nacional,'1')
+  marc_set('008_/15-17','bl#')
+end
+
+
 marc_add('020', a , $.020a)
 marc_add('020', a , $.020aOld)
 marc_add('035', z , $.035z)
@@ -8,7 +14,7 @@ split_field('100', ';-;')
 
 split_field($.100.0, '--')
 if any_equal($.100.0.*,'PF')
-  marc_add('100', ind1, '1', a , $.100.0.0)
+  marc_add('100', ind1, '1', a , $.100.0.0, e, $.100.0.2)
 end
 if any_equal($.100.0.*,'PJ')
   marc_add('110', ind1, '1', a , $.100.0.0)
@@ -54,7 +60,7 @@ marc_add('650', ind2, '4', a , $.assuntos.20)
 
 split_field($.100.1, '--')
 if any_equal($.100.1.*,'PF')
-  marc_add('700', ind1, '1', a , $.100.1.0)
+  marc_add('700', ind1, '1', a , $.100.1.0, e, $.100.1.2)
 end
 if any_equal($.100.1.*,'PJ')
   marc_add('710', ind1, '1', a , $.100.1.0)
@@ -62,7 +68,7 @@ end
 
 split_field($.100.2, '--')
 if any_equal($.100.2.*,'PF')
-  marc_add('700', ind1, '1', a , $.100.2.0)
+  marc_add('700', ind1, '1', a , $.100.2.0, e, $.100.2.2)
 end
 if any_equal($.100.2.*,'PJ')
   marc_add('710', ind1, '1', a , $.100.2.0)
@@ -70,7 +76,7 @@ end
 
 split_field($.100.3, '--')
 if any_equal($.100.3.*,'PF')
-  marc_add('700', ind1, '1', a , $.100.3.0)
+  marc_add('700', ind1, '1', a , $.100.3.0, e, $.100.3.2)
 end
 if any_equal($.100.3.*,'PJ')
   marc_add('710', ind1, '1', a , $.100.3.0)
