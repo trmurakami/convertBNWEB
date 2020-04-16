@@ -66,5 +66,10 @@ LEFT JOIN
 	GROUP BY codigo
 ) links
 ON ace.cod_acervo=links.codigo
-LEFT JOIN bnweb.dbo.tbibcla0 cla ON ace.cod_acervo=cla.cod_acervo
+LEFT JOIN (
+	SELECT cod_acervo, STRING_AGG(classificacao, ';-;') as classificacao, STRING_AGG(cutter, ';-;') as cutter
+	FROM [bnweb].[dbo].[tbibcla0]
+	GROUP BY cod_acervo
+) cla
+ON ace.cod_acervo=cla.cod_acervo
 WHERE tipo = 'LIV'
