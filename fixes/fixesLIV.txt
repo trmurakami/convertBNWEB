@@ -10,6 +10,8 @@ marc_add('020', a , $.020a)
 marc_add('020', a , $.020aOld)
 marc_add('035', z , $.035z)
 
+marc_add('090', a , $.090a)
+
 split_field('100', ';-;')
 
 split_field($.100.0, '--')
