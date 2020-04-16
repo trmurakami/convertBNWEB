@@ -1,1 +1,6 @@
 Português|por
+Espanhol|spa
+Inglês|eng
+Francês|fre
+Alemão|ger
+Italiano|ita
