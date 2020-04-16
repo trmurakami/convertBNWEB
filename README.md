@@ -11,5 +11,7 @@ Códigos e conversor do BNWEB para MARC21
 
 # Converter para MARC21
 
-    catmandu convert CSV --sep_char '\t' --fix fixes/fixesLIV.txt to MARC -- < data/AN-LIV.tsv > data/export.mrc
+    sed -i 's/NULL//g' AN-LIV.tsv
+    
+    catmandu convert CSV --sep_char '\t' --fix fixes/fixesLIV.txt to MARC < data/AN-LIV.tsv > data/export.mrc
 
