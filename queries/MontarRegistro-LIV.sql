@@ -24,8 +24,8 @@ SELECT
 	ISNULL(ace.anexo, '') as '300e',
 	ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '') as '490a',
 	ISNULL(ace.volume_qta, '') as '490v',
-	ISNULL(ace.notas, '') as '500a',
-	ISNULL(ace.resumo, '') as '520a',
+	ISNULL(REPLACE(ace.notas, char(9), ''),'') as '500a',
+	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
 	ISNULL(ass.assuntos, '') as '650a',
 	ISNULL(ace.titulo_original, '') as '765t',
 	ISNULL(links.links, '') as '856'

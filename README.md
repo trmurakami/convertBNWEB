@@ -11,7 +11,7 @@ Códigos e conversor do BNWEB para MARC21
 
 # Converter para MARC21
 
-    sed -i 's/NULL//g' AN-LIV.tsv
+    UPDATE dbo.tbibace0 SET notas = LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(notas, CHAR(9), ''), CHAR(10), ''), CHAR(13), '')))
     
     catmandu convert CSV --sep_char '\t' --fix fixes/fixesLIV.txt to MARC < data/AN-LIV.tsv > data/export.mrc
 
