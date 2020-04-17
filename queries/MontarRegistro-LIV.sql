@@ -31,7 +31,8 @@ SELECT
 	ISNULL(links.links, '') as '856',
 	ISNULL(anexos.anexos, '') as 'anexos',
 	ISNULL(partes.partes, '') as 'partes',
-	ISNULL(volumes.volumes, '') as 'volumes'
+	ISNULL(volumes.volumes, '') as 'volumes',
+	ISNULL(item.items, '') as 'items'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -96,4 +97,10 @@ LEFT JOIN
 	GROUP BY codigo
 ) volumes
 ON ace.cod_acervo=volumes.codigo
+LEFT JOIN (
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '--',sigla_unidade,'--',nome_unidade,'--',classificacao,'--',cutter,'--',data_pub,'--',edicao,'--',str_tp_aqui,'--',patrimonio), ';-;') as items
+	FROM [bnweb].[dbo].[vbibite0]
+	GROUP BY cod_acervo
+) item
+ON ace.cod_acervo=item.cod_acervo
 WHERE tipo = 'LIV'
