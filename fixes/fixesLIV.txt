@@ -157,3 +157,6 @@ if any_equal($.100.11.*,'PJ')
 end
 
 marc_add('765', ind1, '0', t, $.765t)
+
+split_field('items', ';-;')
+marc_add('952', a , $.items)
