@@ -98,7 +98,7 @@ LEFT JOIN
 ) volumes
 ON ace.cod_acervo=volumes.codigo
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '--',sigla_unidade,'--',nome_unidade,'--',classificacao,'--',cutter,'--',data_pub,'--',edicao,'--',str_tp_aqui,'--',patrimonio), ';-;') as items
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade,'$o',classificacao,' ',cutter,' ',data_pub,' ',edicao,'$z',str_tp_aqui,'$i',patrimonio), ';-;') as items
 	FROM [bnweb].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) item
