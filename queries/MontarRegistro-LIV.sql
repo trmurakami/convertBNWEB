@@ -32,7 +32,8 @@ SELECT
 	ISNULL(anexos.anexos, '') as 'anexos',
 	ISNULL(partes.partes, '') as 'partes',
 	ISNULL(volumes.volumes, '') as 'volumes',
-	ISNULL(item.items, '') as 'items'
+	ISNULL(item.items, '') as 'items',
+	ISNULL(holdings.holdings, '') as 'holdings'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -108,5 +109,5 @@ LEFT JOIN (
 	FROM [bnweb].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) holdings
-ON ace.cod_acervo=item.cod_acervo
+ON ace.cod_acervo=holdings.cod_acervo
 WHERE tipo = 'LIV'
