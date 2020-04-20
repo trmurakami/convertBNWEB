@@ -9,13 +9,12 @@ marc_add('020', a , $.020a)
 marc_add('020', a , $.020aOld)
 marc_add('035', z , $.035z)
 
-lookup("008-35-37","fixes/dic_language.txt", sep_char:'|')
-set_array("language","por","spa","eng","fre","ger","ita") 
-if in('008-35-37',language)
-  marc_set('008_/35-37',$.008-35-37)
-end
+marc_set('008_/35-37',$.language)
 
-marc_add('041', a , $.008-35-37)
+split_field('008-35-37', '--')
+marc_add('041', a , $.008-35-37.0)
+marc_add('041', a , $.008-35-37.1)
+marc_add('041', a , $.008-35-37.2)
 
 marc_add('090', a , $.090a)
 
