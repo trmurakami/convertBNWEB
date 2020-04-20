@@ -157,6 +157,11 @@ end
 
 marc_add('765', ind1, '0', t, $.765t)
 
+split_field('holdings', ';-;')
+sort_field('holdings', uniq:1)
+marc_add('852', a , $.holdings.0)
+marc_add('852', a , $.holdings.1) 
+
 split_field('items', ';-;')
 marc_add('942', c , 'BK')
 marc_add('952', p , $.items.0)
