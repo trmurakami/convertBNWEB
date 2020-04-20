@@ -975,5 +975,1338 @@
     "repeat": false,
     "repeatCount": 10,
     "description": "Text transform on cells in column items using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008-35-37",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "por"
+      }
+    ],
+    "description": "Mass edit cells in column 008-35-37"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008-35-37",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Portuguese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "por"
+      }
+    ],
+    "description": "Mass edit cells in column 008-35-37"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008-35-37",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alemão"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ger"
+      }
+    ],
+    "description": "Mass edit cells in column 008-35-37"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "008-35-37",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "newColumnName": "language",
+    "columnInsertIndex": 7,
+    "description": "Create column language at index 7 based on column 008-35-37 using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alemão--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alemão/Fancês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alemão/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Árabe--Inglês/Francês/Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Catalão/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol--Francês--Inglês--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês--Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês/Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês/Italiano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grego/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grego/Latim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Holandês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Húngaro--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Árabe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Coreano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Francês/Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Francês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Italiano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Italiano--Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Japonês/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Japonês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Latim/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Latim/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Multilingüe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Polonês/Inglês/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Alemão"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Árabe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Esperanto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Inglês/Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Inglês/Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Português/Italiano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tcheco/Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Trilingüe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "English"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Inglês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Catalão"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cat"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Espanhol"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "spa"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Francês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fre"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Polonês/Português"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "mul"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Eslavo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sla"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Esperanto"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "epo"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Galego"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gag"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Grego"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gre"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Italiano"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ita"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Japonês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "jpn"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Latim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lat"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PolishView all editions and formats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pol"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Romeno"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rum"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "rus"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Holandês"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dut"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sueco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "swe"
+      }
+    ],
+    "description": "Mass edit cells in column language"
   }
 ]
