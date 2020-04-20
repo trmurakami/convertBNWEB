@@ -103,4 +103,10 @@ LEFT JOIN (
 	GROUP BY cod_acervo
 ) item
 ON ace.cod_acervo=item.cod_acervo
+LEFT JOIN (
+	SELECT distinct cod_acervo, STRING_AGG(CONCAT('$a',nome_unidade,'$g',sigla_unidade), ';-;') as holdings
+	FROM [bnweb].[dbo].[vbibite0]
+	GROUP BY cod_acervo
+) holdings
+ON ace.cod_acervo=item.cod_acervo
 WHERE tipo = 'LIV'

@@ -159,6 +159,7 @@ end
 marc_add('765', ind1, '0', t, $.765t)
 
 split_field('items', ';-;')
+marc_add('942', c , 'BK')
 marc_add('952', p , $.items.0)
 marc_add('952', p , $.items.1)
 marc_add('952', p , $.items.2)
