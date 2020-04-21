@@ -20,7 +20,7 @@ SELECT
 	ISNULL(ace.local, '') as '260a',
 	ISNULL(edit.editores, '') as '260b',
 	ISNULL(ace.data_pub, '') as '260c', 
-	ISNULL(ace.colacao, '') as '300a',
+	ISNULL(ace.colacao, '') as '300',
 	ISNULL(ace.anexo, '') as '300e',
 	ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '') as '490a',
 	ISNULL(ace.volume_qta, '') as '490v',
@@ -34,9 +34,9 @@ SELECT
 	ISNULL(volumes.volumes, '') as 'volumes',
 	ISNULL(item.items, '') as 'items',
 	ISNULL(holdings.holdings, '') as 'holdings',
-	acon.acon as 'areacon_cod',
-	acon_desc.sigla as 'areacon_sigla',
-	acon_desc.nome as 'areacon_nome'
+	ISNULL(acon.acon, '') as 'areacon_cod',
+	ISNULL(acon_desc.sigla, '') as 'areacon_sigla',
+	ISNULL(acon_desc.nome, '') as 'areacon_nome'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -102,7 +102,7 @@ LEFT JOIN
 ) volumes
 ON ace.cod_acervo=volumes.codigo
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade,'$o',classificacao,' ',cutter,' ',data_pub,' ',edicao,'$z',str_tp_aqui,'$i',patrimonio), ';-;') as items
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,' ',cutter,' ',complemento,' ',data_pub,' ',edicao,'$t',exemp,'$z',TRIM(str_tp_aqui),'$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
 	FROM [bnweb].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) item
