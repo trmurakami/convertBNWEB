@@ -343,32 +343,6 @@
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "300a",
-    "expression": "value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column 300a using expression value.trim()"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "300a",
-    "expression": "value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10,
-    "description": "Text transform on cells in column 300a using expression value.replace(/\\s+/,' ')"
-  },
-  {
-    "op": "core/text-transform",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
     "columnName": "300e",
     "expression": "value.trim()",
     "onError": "keep-original",
@@ -2933,5 +2907,105 @@
       }
     ],
     "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biography"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "language",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Conference publication"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column language"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008-35-37",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Biography"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column 008-35-37"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "008-35-37",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Conference publication"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "eng"
+      }
+    ],
+    "description": "Mass edit cells in column 008-35-37"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "260c",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "168"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1968"
+      }
+    ],
+    "description": "Mass edit cells in column 260c"
   }
 ]
