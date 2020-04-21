@@ -162,9 +162,9 @@ split_field('holdings', ';-;')
 sort_field('holdings', uniq:1)
 marc_add('852', a , $.holdings.0)
 marc_add('852', a , $.holdings.1)
-
-
 marc_add('852',  ind1, '4',  a , $.areacon_nome, f, $.areacon_sigla)
+
+marc_add('852',  ind1, '4', ind2, '0', u , $.anexos)
 
 split_field('items', ';-;')
 marc_add('942', c , 'BK')
