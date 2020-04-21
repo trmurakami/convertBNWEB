@@ -33,7 +33,10 @@ SELECT
 	ISNULL(partes.partes, '') as 'partes',
 	ISNULL(volumes.volumes, '') as 'volumes',
 	ISNULL(item.items, '') as 'items',
-	ISNULL(holdings.holdings, '') as 'holdings'
+	ISNULL(holdings.holdings, '') as 'holdings',
+	acon.acon as 'areacon_cod',
+	acon_desc.sigla as 'areacon_sigla',
+	acon_desc.nome as 'areacon_nome'
 FROM 
 dbo.tbibace0 AS ace
 LEFT JOIN
@@ -110,4 +113,12 @@ LEFT JOIN (
 	GROUP BY cod_acervo
 ) holdings
 ON ace.cod_acervo=holdings.cod_acervo
+
+LEFT JOIN (
+	SELECT cod_acervo, STRING_AGG(cod_acon, '') as acon
+	FROM [bnweb].[dbo].[tbibxaa0]
+	GROUP BY cod_acervo
+) acon
+ON ace.cod_acervo=acon.cod_acervo
+LEFT JOIN tbibaco0 AS acon_desc ON acon_desc.cod_acon=acon.acon
 WHERE tipo = 'LIV'
