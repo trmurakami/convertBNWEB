@@ -29,7 +29,7 @@ SELECT
 	ISNULL(ass.assuntos, '') as '650a',
 	ISNULL(ace.titulo_original, '') as '765t',
 	ISNULL(links.links, '') as '856',
-	ISNULL(anexos.anexos, '') as 'anexos',
+	ISNULL(REPLACE(anexos.anexos,'\','/'), '') as 'anexos',
 	ISNULL(partes.partes, '') as 'partes',
 	ISNULL(volumes.volumes, '') as 'volumes',
 	ISNULL(item.items, '') as 'items',
@@ -82,13 +82,6 @@ LEFT JOIN (
 ON ace.cod_acervo=cla.cod_acervo
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(descricao, '--') as anexos
-	FROM [bnweb].[dbo].[vbibapiace0_anexos]
-	GROUP BY codigo
-) anexos
-ON ace.cod_acervo=anexos.codigo
-LEFT JOIN
-(
 	SELECT codigo, STRING_AGG(CAST(titulo as varchar(max)), '--') as partes
 	FROM [bnweb].[dbo].[vbibapiace0_partes]
 	GROUP BY codigo
@@ -121,4 +114,11 @@ LEFT JOIN (
 ) acon
 ON ace.cod_acervo=acon.cod_acervo
 LEFT JOIN tbibaco0 AS acon_desc ON acon_desc.cod_acon=acon.acon
+
+LEFT JOIN (
+	SELECT distinct cod_acervo, STRING_AGG(CONCAT('http://biblioteca.an.gov.br/bnweb/upload/',diretorio,'/',arquivo), ';-;') as anexos
+	FROM [bnweb].[dbo].[tbibane0]
+	GROUP BY cod_acervo
+) anexos
+ON ace.cod_acervo=anexos.cod_acervo
 WHERE tipo = 'LIV'
