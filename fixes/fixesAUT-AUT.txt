@@ -1,0 +1,7 @@
+marc_add('008', _ ,'200422|| aca||aabn           | a|a     d')
+if any_equal($.tipo,'PF')
+  marc_add('100', ind1, '1', a , $.nome_completo, d, $.nasc_morte)
+end
+if any_equal($.tipo,'PJ')
+  marc_add('110', ind1, '1', a , $.nome_sobre)
+end
