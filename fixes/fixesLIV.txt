@@ -166,7 +166,16 @@ marc_add('765', ind1, '0', t, $.765t)
 #marc_add('852', a , $.holdings.1)
 marc_add('852',  ind1, '4',  a , $.areacon_nome, f, $.areacon_sigla)
 
-marc_add('856',  ind1, '4', ind2, '0', u , $.anexos)
+#split_field('anexos', ';-;')
+if all_match('anexos.0', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.0)
+end
+if all_match('anexos.1', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.1)
+end
+if all_match('anexos.2', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.2)
+end
 
 split_field('items', ';-;')
 marc_add('942', c , 'BK')
