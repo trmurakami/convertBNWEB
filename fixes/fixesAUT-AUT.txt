@@ -5,3 +5,8 @@ end
 if any_equal($.tipo,'PJ')
   marc_add('110', ind1, '1', a , $.nome_sobre)
 end
+if any_equal($.tipo,'EV')
+  marc_add('111', ind1, '1', a , $.nome_sobre)
+end
+marc_add('667', a , $.notas)
+marc_add('856',  ind1, '4', ind2, '0', u , $.url)
