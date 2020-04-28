@@ -178,7 +178,7 @@ if all_match('anexos.2', 'pdf')
 end
 
 split_field('items', ';-;')
-marc_add('942', c , '')
+marc_add('942', c , 'BK')
 marc_add('952', p , $.items.0)
 marc_add('952', p , $.items.1)
 marc_add('952', p , $.items.2)
