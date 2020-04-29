@@ -130,4 +130,4 @@ LEFT JOIN (
 ) fasc
 ON ace.cod_acervo=fasc.cod_fonte
 
-WHERE tipo = 'LIV'
+WHERE tipo = 'PER'
