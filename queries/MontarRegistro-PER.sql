@@ -1,4 +1,4 @@
-SELECT 
+SELECT
 	ace.cod_acervo,
 	ace.visivel as 'visivel',
 	ace.reserva as 'reserva',
