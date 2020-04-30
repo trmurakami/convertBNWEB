@@ -10,6 +10,7 @@ SELECT
 	ISNULL(cla.cutter, '') as '090b',
 	ISNULL(ace.is_barras, '') as '020a',
 	ISNULL(ace.is_cod, '') as '020aOld',
+	ISNULL(ace.issn, '') as '022a',
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
 	ISNULL(aut.autores, '') as '100',
 	ISNULL(LEN(ace.titulo_artigo), '0') as '2452',
@@ -122,12 +123,11 @@ LEFT JOIN (
 	GROUP BY cod_acervo
 ) anexos
 ON ace.cod_acervo=anexos.cod_acervo
-
 LEFT JOIN (
-	SELECT cod_fonte, STRING_AGG(CAST(CONCAT('$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data) AS VARCHAR(MAX)), ';-;') as fasciculos
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$b',REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$p',cod_acervo,'$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data,'$7',REPLACE(REPLACE(REPLACE(reserva,'0','2'),'1','0'),'2','1')) AS VARCHAR(MAX)), ';-;') as fasciculos
 	FROM [bnweb2].[dbo].[tbibace0]
-	GROUP BY cod_fonte
+	WHERE [tipo] = 'FAS'
+ 	GROUP BY cod_fonte
 ) fasc
 ON ace.cod_acervo=fasc.cod_fonte
-
 WHERE tipo = 'PER'
