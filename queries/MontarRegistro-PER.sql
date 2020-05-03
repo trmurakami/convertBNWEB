@@ -124,7 +124,7 @@ LEFT JOIN (
 ) anexos
 ON ace.cod_acervo=anexos.cod_acervo
 LEFT JOIN (
-	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$b',REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$p',cod_acervo,'$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data,'$yPER','$7',REPLACE(REPLACE(REPLACE(reserva,'0','2'),'1','0'),'2','1')) AS VARCHAR(MAX)), ';-;') as fasciculos
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$b',REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$p0',cod_acervo,'$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data,'$yPER','$7',REPLACE(REPLACE(REPLACE(reserva,'0','2'),'1','0'),'2','1')) AS VARCHAR(MAX)), ';-;') as fasciculos
 	FROM [bnweb2].[dbo].[tbibace0]
 	WHERE [tipo] = 'FAS'
  	GROUP BY cod_fonte
