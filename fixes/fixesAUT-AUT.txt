@@ -1,3 +1,4 @@
+marc_add('LDR', _ , '00000nz\\a22\\\\\a\\4500')
 marc_add('008', _ ,'200422|| aca||aabn           | a|a     d')
 if any_equal($.tipo,'PF')
   marc_add('100', ind1, '1', a , $.nome_completo, d, $.nasc_morte)
