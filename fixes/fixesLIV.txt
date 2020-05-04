@@ -226,7 +226,7 @@ marc_add('774',  ind1, '0', t , $.capitulos.55)
 #sort_field('holdings', uniq:1)
 #marc_add('852', a , $.holdings.0)
 #marc_add('852', a , $.holdings.1)
-marc_add('852',  ind1, '4',  a , $.areacon_nome, f, $.areacon_sigla)
+marc_add('852',  ind1, '4',  b , $.areacon_nome, x , $.areacon_sian, z, $.areacon_sigla)
 
 split_field('anexos', ';-;')
 if all_match('anexos.0', 'pdf')
