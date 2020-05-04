@@ -162,7 +162,7 @@ end
 marc_add('765', ind1, '0', t, $.765t)
 
 split_field('capitulos', ';-;')
-if is_array('capitulos')
+if is_string('capitulos.0')
   marc_set('LDR_/7','s')
 end
 marc_add('774',  ind1, '0', t , $.capitulos.0)
