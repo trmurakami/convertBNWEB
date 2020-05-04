@@ -17,7 +17,23 @@ marc_add('041', a , $.008-35-37.0)
 marc_add('041', a , $.008-35-37.1)
 marc_add('041', a , $.008-35-37.2)
 
-marc_add('092', a , $.092a)
+split_field('092a', ';-;')
+copy_field("092a","classificacao")
+substring("092a.0",0,3)
+substring("092a.1",0,3)
+
+if is_number(092a.0)
+  marc_add('082', a , $.classificacao.0)
+else
+  marc_add('092', a , $.classificacao.0)
+end
+
+if is_number(092a.1)
+  marc_add('082', a , $.classificacao.1)
+else
+  marc_add('092', a , $.classificacao.1)
+end
+
 
 split_field('100', ';-;')
 
