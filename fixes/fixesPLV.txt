@@ -178,7 +178,7 @@ end
 
 marc_add('765', ind1, '0', t, $.765t)
 
-marc_add('773',  ind1, '0', t , $.fonte)
+marc_add('773',  ind1, '0', t , $.fonte, g, $.300)
 
 #split_field('holdings', ';-;')
 #sort_field('holdings', uniq:1)
