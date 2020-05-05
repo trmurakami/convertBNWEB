@@ -23,13 +23,13 @@ substring("092a.0",0,3)
 substring("092a.1",0,3)
 
 if is_number(092a.0)
-  marc_add('082', a , $.classificacao.0)
+  marc_add('082', ind1, '1', ind2, '4', a , $.classificacao.0)
 else
   marc_add('092', a , $.classificacao.0)
 end
 
 if is_number(092a.1)
-  marc_add('082', a , $.classificacao.1)
+  marc_add('082', ind1, '1', ind2, '4', a , $.classificacao.1)
 else
   marc_add('092', a , $.classificacao.1)
 end
