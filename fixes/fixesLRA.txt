@@ -58,10 +58,10 @@ end
 
 marc_add('300', a , $.300)
 marc_add('490', ind1, '0', a , $.490a)
-marc_add('500', a , $.500a)
 marc_add('520', a , $.520a)
 marc_add('520', a , $.partes)
 marc_add('530', a , $.volumes)
+marc_add('590', ind1, '0', a , $.500a)
 
 copy_field('650a','assuntos')
 split_field(assuntos, '--')
