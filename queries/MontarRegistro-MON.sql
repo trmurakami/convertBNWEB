@@ -149,4 +149,4 @@ LEFT JOIN (
 ) capitulo
 ON ace.cod_acervo=capitulo.cod_fonte
 
-WHERE tipo = 'LRA'
+WHERE tipo = 'MON'
