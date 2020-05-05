@@ -1,0 +1,289 @@
+marc_add('LDR', _ , '00000nam  2200000Ia 4500')
+marc_add('001', _ , $.001)
+marc_add('008', _ ,'200415s9999##################000#0#####|')
+
+if any_equal(nacional,'1')
+  marc_set('008_/15-17','bl#')
+end
+
+marc_add('020', a , $.020a)
+marc_add('020', a , $.020aOld)
+marc_add('035', z , $.035z)
+
+marc_set('008_/35-37',$.language)
+
+split_field('008-35-37', '--')
+marc_add('041', a , $.008-35-37.0)
+marc_add('041', a , $.008-35-37.1)
+marc_add('041', a , $.008-35-37.2)
+
+split_field('092a', ';-;')
+copy_field("092a","classificacao")
+substring("092a.0",0,3)
+substring("092a.1",0,3)
+
+if is_number(092a.0)
+  marc_add('082', ind1, '1', ind2, '4', a , $.classificacao.0)
+else
+  marc_add('092', a , $.classificacao.0)
+end
+
+if is_number(092a.1)
+  marc_add('082', ind1, '1', ind2, '4', a , $.classificacao.1)
+else
+  marc_add('092', a , $.classificacao.1)
+end
+
+
+split_field('100', ';-;')
+
+split_field($.100.0, '--')
+if any_equal($.100.0.*,'PF')
+  marc_add('100', ind1, '1', a , $.100.0.0, e, $.100.0.2)
+end
+if any_equal($.100.0.*,'PJ')
+  marc_add('110', ind1, '1', a , $.100.0.0)
+end
+
+split_field(titulo, ':')
+trim($.titulo.1)
+marc_add('245', ind1, '0', ind2, '0', a , $.titulo.0, b , $.titulo.1)
+
+marc_add('250', a , $.250a)
+marc_add('260', a , $.260a, b , $.260b, c , $.260c)
+
+if is_number('260c')
+  marc_set('008_/07-10',$.260c)
+end
+
+marc_add('300', a , $.300)
+marc_add('490', ind1, '0', a , $.490a)
+marc_add('500', a , $.500a)
+marc_add('520', a , $.520a)
+marc_add('520', a , $.partes)
+marc_add('530', a , $.volumes)
+
+copy_field('650a','assuntos')
+split_field(assuntos, '--')
+marc_add('650', ind2, '4', a , $.assuntos.0)
+marc_add('650', ind2, '4', a , $.assuntos.1)
+marc_add('650', ind2, '4', a , $.assuntos.2)
+marc_add('650', ind2, '4', a , $.assuntos.3)
+marc_add('650', ind2, '4', a , $.assuntos.4)
+marc_add('650', ind2, '4', a , $.assuntos.5)
+marc_add('650', ind2, '4', a , $.assuntos.6)
+marc_add('650', ind2, '4', a , $.assuntos.7)
+marc_add('650', ind2, '4', a , $.assuntos.8)
+marc_add('650', ind2, '4', a , $.assuntos.9)
+marc_add('650', ind2, '4', a , $.assuntos.10)
+marc_add('650', ind2, '4', a , $.assuntos.11)
+marc_add('650', ind2, '4', a , $.assuntos.12)
+marc_add('650', ind2, '4', a , $.assuntos.13)
+marc_add('650', ind2, '4', a , $.assuntos.14)
+marc_add('650', ind2, '4', a , $.assuntos.15)
+marc_add('650', ind2, '4', a , $.assuntos.16)
+marc_add('650', ind2, '4', a , $.assuntos.17)
+marc_add('650', ind2, '4', a , $.assuntos.18)
+marc_add('650', ind2, '4', a , $.assuntos.19)
+marc_add('650', ind2, '4', a , $.assuntos.20)
+
+split_field($.100.1, '--')
+if any_equal($.100.1.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.1.0, e, $.100.1.2)
+end
+if any_equal($.100.1.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.1.0)
+end
+
+split_field($.100.2, '--')
+if any_equal($.100.2.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.2.0, e, $.100.2.2)
+end
+if any_equal($.100.2.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.2.0)
+end
+
+split_field($.100.3, '--')
+if any_equal($.100.3.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.3.0, e, $.100.3.2)
+end
+if any_equal($.100.3.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.3.0)
+end
+
+split_field($.100.4, '--')
+if any_equal($.100.4.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.4.0)
+end
+if any_equal($.100.4.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.4.0)
+end
+
+split_field($.100.5, '--')
+if any_equal($.100.5.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.5.0)
+end
+if any_equal($.100.5.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.5.0)
+end
+
+split_field($.100.6, '--')
+if any_equal($.100.6.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.6.0)
+end
+if any_equal($.100.6.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.6.0)
+end
+
+split_field($.100.7, '--')
+if any_equal($.100.7.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.7.0)
+end
+if any_equal($.100.7.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.7.0)
+end
+
+split_field($.100.8, '--')
+if any_equal($.100.8.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.8.0)
+end
+if any_equal($.100.8.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.8.0)
+end
+
+split_field($.100.9, '--')
+if any_equal($.100.9.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.9.0)
+end
+if any_equal($.100.9.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.9.0)
+end
+
+split_field($.100.10, '--')
+if any_equal($.100.10.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.10.0)
+end
+if any_equal($.100.10.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.10.0)
+end
+
+split_field($.100.11, '--')
+if any_equal($.100.11.*,'PF')
+  marc_add('700', ind1, '1', a , $.100.11.0)
+end
+if any_equal($.100.11.*,'PJ')
+  marc_add('710', ind1, '1', a , $.100.11.0)
+end
+
+marc_add('765', ind1, '0', t, $.765t)
+
+split_field('capitulos', ';-;')
+if is_string('capitulos.0')
+  marc_set('LDR_/7','s')
+end
+marc_add('774',  ind1, '0', t , $.capitulos.0)
+marc_add('774',  ind1, '0', t , $.capitulos.1)
+marc_add('774',  ind1, '0', t , $.capitulos.2)
+marc_add('774',  ind1, '0', t , $.capitulos.3)
+marc_add('774',  ind1, '0', t , $.capitulos.4)
+marc_add('774',  ind1, '0', t , $.capitulos.5)
+marc_add('774',  ind1, '0', t , $.capitulos.6)
+marc_add('774',  ind1, '0', t , $.capitulos.7)
+marc_add('774',  ind1, '0', t , $.capitulos.8)
+marc_add('774',  ind1, '0', t , $.capitulos.9)
+marc_add('774',  ind1, '0', t , $.capitulos.10)
+marc_add('774',  ind1, '0', t , $.capitulos.11)
+marc_add('774',  ind1, '0', t , $.capitulos.12)
+marc_add('774',  ind1, '0', t , $.capitulos.13)
+marc_add('774',  ind1, '0', t , $.capitulos.14)
+marc_add('774',  ind1, '0', t , $.capitulos.15)
+marc_add('774',  ind1, '0', t , $.capitulos.16)
+marc_add('774',  ind1, '0', t , $.capitulos.17)
+marc_add('774',  ind1, '0', t , $.capitulos.18)
+marc_add('774',  ind1, '0', t , $.capitulos.19)
+marc_add('774',  ind1, '0', t , $.capitulos.20)
+marc_add('774',  ind1, '0', t , $.capitulos.21)
+marc_add('774',  ind1, '0', t , $.capitulos.22)
+marc_add('774',  ind1, '0', t , $.capitulos.23)
+marc_add('774',  ind1, '0', t , $.capitulos.24)
+marc_add('774',  ind1, '0', t , $.capitulos.25)
+marc_add('774',  ind1, '0', t , $.capitulos.26)
+marc_add('774',  ind1, '0', t , $.capitulos.27)
+marc_add('774',  ind1, '0', t , $.capitulos.28)
+marc_add('774',  ind1, '0', t , $.capitulos.29)
+marc_add('774',  ind1, '0', t , $.capitulos.30)
+marc_add('774',  ind1, '0', t , $.capitulos.31)
+marc_add('774',  ind1, '0', t , $.capitulos.32)
+marc_add('774',  ind1, '0', t , $.capitulos.33)
+marc_add('774',  ind1, '0', t , $.capitulos.34)
+marc_add('774',  ind1, '0', t , $.capitulos.35)
+marc_add('774',  ind1, '0', t , $.capitulos.36)
+marc_add('774',  ind1, '0', t , $.capitulos.37)
+marc_add('774',  ind1, '0', t , $.capitulos.38)
+marc_add('774',  ind1, '0', t , $.capitulos.39)
+marc_add('774',  ind1, '0', t , $.capitulos.40)
+marc_add('774',  ind1, '0', t , $.capitulos.41)
+marc_add('774',  ind1, '0', t , $.capitulos.42)
+marc_add('774',  ind1, '0', t , $.capitulos.43)
+marc_add('774',  ind1, '0', t , $.capitulos.44)
+marc_add('774',  ind1, '0', t , $.capitulos.45)
+marc_add('774',  ind1, '0', t , $.capitulos.46)
+marc_add('774',  ind1, '0', t , $.capitulos.47)
+marc_add('774',  ind1, '0', t , $.capitulos.48)
+marc_add('774',  ind1, '0', t , $.capitulos.49)
+marc_add('774',  ind1, '0', t , $.capitulos.50)
+marc_add('774',  ind1, '0', t , $.capitulos.51)
+marc_add('774',  ind1, '0', t , $.capitulos.52)
+marc_add('774',  ind1, '0', t , $.capitulos.53)
+marc_add('774',  ind1, '0', t , $.capitulos.54)
+marc_add('774',  ind1, '0', t , $.capitulos.55)
+
+#split_field('holdings', ';-;')
+#sort_field('holdings', uniq:1)
+#marc_add('852', a , $.holdings.0)
+#marc_add('852', a , $.holdings.1)
+marc_add('852',  ind1, '4',  b , $.areacon_nome, x , $.areacon_sian, z, $.areacon_sigla)
+
+split_field('anexos', ';-;')
+if all_match('anexos.0', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.0)
+end
+if all_match('anexos.1', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.1)
+end
+if all_match('anexos.2', 'pdf')
+  marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.2)
+end
+
+split_field('items', ';-;')
+marc_add('942', c , 'FOL')
+marc_add('952', p , $.items.0)
+marc_add('952', p , $.items.1)
+marc_add('952', p , $.items.2)
+marc_add('952', p , $.items.3)
+marc_add('952', p , $.items.4)
+marc_add('952', p , $.items.5)
+marc_add('952', p , $.items.6)
+marc_add('952', p , $.items.7)
+marc_add('952', p , $.items.8)
+marc_add('952', p , $.items.9)
+marc_add('952', p , $.items.10)
+marc_add('952', p , $.items.11)
+marc_add('952', p , $.items.12)
+marc_add('952', p , $.items.13)
+marc_add('952', p , $.items.14)
+marc_add('952', p , $.items.15)
+marc_add('952', p , $.items.16)
+marc_add('952', p , $.items.17)
+marc_add('952', p , $.items.18)
+marc_add('952', p , $.items.19)
+marc_add('952', p , $.items.20)
+marc_add('952', p , $.items.21)
+marc_add('952', p , $.items.22)
+marc_add('952', p , $.items.23)
+marc_add('952', p , $.items.24)
+marc_add('952', p , $.items.25)
+marc_add('952', p , $.items.26)
+marc_add('952', p , $.items.27)
+marc_add('952', p , $.items.28)
+marc_add('952', p , $.items.29)
