@@ -39,8 +39,7 @@ SELECT
 	ISNULL(acon_desc.sigla, '') as 'areacon_sigla',
 	ISNULL(acon_desc.nome, '') as 'areacon_nome',
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
-	ace.cod_fonte as 'cod_fonte',
-	ISNULL(fonte.fonte, '') as 'fonte'
+	ISNULL(capitulo.capitulos, '') as 'capitulos'
 FROM 
 dbo.tbibace0 AS ace
 
@@ -144,10 +143,10 @@ LEFT JOIN (
 ON ace.cod_acervo=fasc.cod_fonte
 
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_acervo) AS VARCHAR(MAX)), ';-;') as fonte
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_fonte) AS VARCHAR(MAX)), ';-;') as capitulos
 	FROM [bnweb2].[dbo].[tbibace0]
- 	GROUP BY cod_acervo
-) fonte
-ON ace.cod_fonte=fonte.cod_acervo
+ 	GROUP BY cod_fonte
+) capitulo
+ON ace.cod_acervo=capitulo.cod_fonte
 
-WHERE tipo = 'PLV'
+WHERE tipo = 'RFR'

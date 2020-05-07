@@ -1,5 +1,6 @@
 SELECT 
 	ace.cod_acervo,
+	ace.tipo,
 	ace.visivel as 'visivel',
 	ace.reserva as 'reserva',
 	ace.nacional as 'nacional',
