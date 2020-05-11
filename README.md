@@ -13,6 +13,9 @@ Códigos e conversor do BNWEB para MARC21
 
     Subir no OpenRefine. Rodar os comandos do openrefine e exportar em TSV
 
+    Tips: 
+    replace(value,"$y","$y"+cells['tipo'].value)
+
 # Converter para MARC21
 
     UPDATE dbo.tbibace0 SET notas = LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(notas, CHAR(9), ''), CHAR(10), ''), CHAR(13), '')))
