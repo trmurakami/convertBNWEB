@@ -1,9 +1,9 @@
 marc_add('LDR', _ , '00000nam  2200000Ia 4500')
 marc_add('001', _ , $.001)
-marc_add('008', _ ,'200415s9999##################000#0#####|')
+marc_add('008', _ ,'200415s9999                  000 0     |')
 
 if any_equal(nacional,'1')
-  marc_set('008_/15-17','bl#')
+  marc_set('008_/15-17','bl ')
 end
 
 marc_add('020', a , $.020a)
@@ -256,7 +256,7 @@ if all_match('anexos.2', 'pdf')
 end
 
 split_field('items', ';-;')
-marc_add('942', c , 'LIV')
+marc_add('942', c , $.tipo)
 marc_add('952', p , $.items.0)
 marc_add('952', p , $.items.1)
 marc_add('952', p , $.items.2)

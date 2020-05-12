@@ -13,8 +13,10 @@ Códigos e conversor do BNWEB para MARC21
 
     Subir no OpenRefine. Rodar os comandos do openrefine e exportar em TSV
 
-    Tips: 
-    replace(value,"$y","$y"+cells['tipo'].value)
+    Tips:
+    Rodar no itens: replace(value,"$y","$y"+cells['tipo'].value)
+    Rodar nos assuntos: cell.cross('AN Assuntos Editado','nome').cells['nome_novo'].value[0]
+
 
 # Converter para MARC21
 
