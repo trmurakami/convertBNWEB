@@ -44,7 +44,7 @@ FROM
 dbo.tbibace0 AS ace
 LEFT JOIN
 (
-    SELECT codigo, STRING_AGG(nome, '--') as assuntos
+    SELECT codigo, STRING_AGG(nome, ';-;') as assuntos
 	FROM [bnweb2].[dbo].[vbibapiace0_assuntos]
 	GROUP BY codigo
 ) ass
