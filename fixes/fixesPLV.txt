@@ -65,7 +65,7 @@ marc_add('520', a , $.partes)
 marc_add('530', a , $.volumes)
 
 copy_field('650a','assuntos')
-split_field(assuntos, '--')
+split_field(assuntos, ';-;')
 marc_add('650', ind2, '4', a , $.assuntos.0)
 marc_add('650', ind2, '4', a , $.assuntos.1)
 marc_add('650', ind2, '4', a , $.assuntos.2)
