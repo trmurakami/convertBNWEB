@@ -179,7 +179,7 @@ if all_match('anexos.2', 'pdf')
 end
 
 split_field('fasciculos', ';-;')
-marc_add('942', c , 'PER')
+marc_add('942', c , $.tipo)
 marc_add('952', a , $.fasciculos.0)
 marc_add('952', a , $.fasciculos.1)
 marc_add('952', a , $.fasciculos.2)
