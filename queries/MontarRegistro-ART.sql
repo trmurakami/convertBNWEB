@@ -39,6 +39,10 @@ SELECT
 	ISNULL(acon_desc.sigla, '') as 'areacon_sigla',
 	ISNULL(acon_desc.nome, '') as 'areacon_nome',
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
+	ISNULL(ace.fonte, '') as 'fonte_nome',
+	ISNULL(ace.fasc_volume, '') as 'fasc_volumes',
+	ISNULL(ace.fasc_numero, '') as 'fasc_numero',
+	ISNULL(ace.fasc_data, '') as 'fasc_data',
 	ace.cod_fonte as 'cod_fonte',
 	ISNULL(fonte.fonte, '') as 'fonte'
 FROM 
@@ -137,11 +141,11 @@ LEFT JOIN (
 ON ace.cod_acervo=anexos.cod_acervo
 
 LEFT JOIN (
-	SELECT cod_fonte, STRING_AGG(CAST(CONCAT('$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data) AS VARCHAR(MAX)), ';-;') as fasciculos
+	SELECT cod_acervo, STRING_AGG(CAST(CONCAT('$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data) AS VARCHAR(MAX)), ';-;') as fasciculos
 	FROM [bnweb2].[dbo].[tbibace0]
-	GROUP BY cod_fonte
+	GROUP BY cod_acervo
 ) fasc
-ON ace.cod_acervo=fasc.cod_fonte
+ON ace.cod_acervo=fasc.cod_acervo
 
 LEFT JOIN (
 	SELECT cod_acervo, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_acervo) AS VARCHAR(MAX)), ';-;') as fonte
