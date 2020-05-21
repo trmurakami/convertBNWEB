@@ -178,7 +178,7 @@ end
 
 marc_add('765', ind1, '0', t, $.765t)
 
-marc_add('773',  ind1, '0', t , $.fonte_nome, g, $.300)
+marc_add('773',  ind1, '0', t , $.fonte_completa)
 
 #split_field('holdings', ';-;')
 #sort_field('holdings', uniq:1)
@@ -198,7 +198,7 @@ if all_match('anexos.2', 'pdf')
 end
 
 split_field('items', ';-;')
-marc_add('942', c , 'PLV')
+marc_add('942', c , 'ART')
 marc_add('952', p , $.items.0)
 marc_add('952', p , $.items.1)
 marc_add('952', p , $.items.2)
