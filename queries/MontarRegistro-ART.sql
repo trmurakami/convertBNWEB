@@ -40,6 +40,7 @@ SELECT
 	ISNULL(acon_desc.nome, '') as 'areacon_nome',
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
 	ISNULL(ace.fonte, '') as 'fonte_nome',
+	ISNULL(ace.fonte_subtit, '') as 'fonte_subtit',
 	ISNULL(ace.fasc_volume, '') as 'fasc_volumes',
 	ISNULL(ace.fasc_numero, '') as 'fasc_numero',
 	ISNULL(ace.fasc_data, '') as 'fasc_data',
