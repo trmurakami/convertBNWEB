@@ -1,4 +1,4 @@
-SELECT 
+SELECT
 	ace.cod_acervo,
 	ace.tipo,
 	ace.visivel as 'visivel',
@@ -39,14 +39,13 @@ SELECT
 	ISNULL(acon_desc.sigla, '') as 'areacon_sigla',
 	ISNULL(acon_desc.nome, '') as 'areacon_nome',
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
-	ace.cod_fonte as 'cod_fonte',
-	ISNULL(fonte.fonte, '') as 'fonte'
+	ISNULL(capitulo.capitulos, '') as 'capitulos'
 FROM 
 dbo.tbibace0 AS ace
 
 LEFT JOIN
 (
-    SELECT codigo, STRING_AGG(nome, ';-;') as assuntos
+    SELECT codigo, STRING_AGG(nome, '|') as assuntos
 	FROM [bnweb2].[dbo].[vbibapiace0_assuntos]
 	GROUP BY codigo
 ) ass
@@ -108,7 +107,7 @@ LEFT JOIN
 ON ace.cod_acervo=volumes.codigo
 
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,' ',cutter,' ',complemento,' ',data_pub,' ',edicao,'$t',exemp,'$y','$z',TRIM(str_tp_aqui),'$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$e',TRIM(str_tp_aqui),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,' ',cutter,' ',complemento,' ',data_pub,' ',edicao,'$t',exemp,'$y','$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
 	FROM [bnweb2].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) item
@@ -144,11 +143,14 @@ LEFT JOIN (
 ON ace.cod_acervo=fasc.cod_fonte
 
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_acervo) AS VARCHAR(MAX)), ';-;') as fonte
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_fonte) AS VARCHAR(MAX)), ';-;') as capitulos
 	FROM [bnweb2].[dbo].[tbibace0]
- 	GROUP BY cod_acervo
-) fonte
-ON ace.cod_fonte=fonte.cod_acervo
+ 	GROUP BY cod_fonte
+) capitulo
+ON ace.cod_acervo=capitulo.cod_fonte
 
-WHERE tipo = 'PLV' OR
-tipo = 'PTC'
+WHERE 
+tipo = 'TES' OR 
+tipo = 'ENC' OR 
+tipo = 'PRT' OR
+tipo = 'REV'
