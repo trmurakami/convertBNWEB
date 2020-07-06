@@ -150,4 +150,4 @@ LEFT JOIN (
 ) fonte
 ON ace.cod_fonte=fonte.cod_acervo
 
-WHERE tipo = 'PLV'
+WHERE tipo = 'PLC'
