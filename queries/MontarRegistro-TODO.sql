@@ -148,7 +148,6 @@ ON ace.cod_acervo=fasc.cod_fonte
 LEFT JOIN (
 	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_fonte) AS VARCHAR(MAX)), ';-;') as capitulos
 	FROM [bnweb2].[dbo].[tbibace0]
-	WHERE [tipo] = 'PLV'
  	GROUP BY cod_fonte
 ) capitulo
 ON ace.cod_acervo=capitulo.cod_fonte
@@ -170,4 +169,7 @@ tipo = 'LIT' OR
 tipo = 'PRT' OR
 tipo = 'RET' OR
 tipo = 'PAL' OR
-tipo = 'NTC'
+tipo = 'NTC' OR
+tipo = 'TES' OR
+tipo = 'ENC' OR
+tipo = 'REV'
