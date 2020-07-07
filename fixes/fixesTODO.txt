@@ -175,7 +175,9 @@ if any_equal($.100.11.*,'PJ')
   marc_add('710', ind1, '1', a , $.100.11.0)
 end
 
-marc_add('700',  ind1, '1', a , $.orientador, e, 'Orientador')
+if exists('orientador')
+  marc_add('700',  ind1, '1', a , $.orientador, e, 'Orientador')
+end
 
 marc_add('765', ind1, '0', t, $.765t)
 
