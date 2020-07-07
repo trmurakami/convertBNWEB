@@ -13,6 +13,7 @@ SELECT
 	ISNULL(ace.is_cod, '') as '020aOld',
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
 	ISNULL(aut.autores, '') as '100',
+	ISNULL(orientador.orientador, '') as 'orientador',
 	ISNULL(LEN(ace.titulo_artigo), '0') as '2452',
 	ISNULL(ace.titulo, '') as 'titulo',
 	CONCAT (ace.titulo_artigo, ace.titulo_inicio) as '245a',
@@ -42,6 +43,13 @@ SELECT
 	ISNULL(capitulo.capitulos, '') as 'capitulos'
 FROM 
 dbo.tbibace0 AS ace
+
+LEFT JOIN
+(
+	SELECT cod_autor as codigo_orientador, tit1 as orientador
+	FROM [bnweb2].[dbo].[tbibaut0] 
+) orientador
+ON ace.cod_orientador=orientador.codigo_orientador
 
 LEFT JOIN
 (
