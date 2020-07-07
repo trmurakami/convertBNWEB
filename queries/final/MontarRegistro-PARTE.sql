@@ -58,8 +58,13 @@ ON ace.cod_acervo=ass.codigo
 
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONCAT(nome, '--',tipo,'--', qualificacao), ';-;') as autores
-	FROM [bnweb2].[dbo].[vbibapiace0_autores]
+    SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT(nome, '--',tipo,'--',qualificador)), ';-;') AS autores
+	FROM (
+		SELECT tbaut.cod_acervo as codigo, tbaut.cod_autor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo
+		FROM [bnweb2].[dbo].[tbibxau0] tbaut
+		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
+		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
+		) as Assuntos
 	GROUP BY codigo
 ) aut
 ON ace.cod_acervo=aut.codigo
