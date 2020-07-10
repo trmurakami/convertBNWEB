@@ -14,7 +14,7 @@ SELECT
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
 	ISNULL(autprinc.autores, '') as '100',
 	ISNULL(aut.autores, '') as '700',
-	ISNULL(orientador.orientador, '') as 'orientador',
+	orientador.orientador as 'orientador',
 	ISNULL(LEN(ace.titulo_artigo), '0') as '2452',
 	ISNULL(ace.titulo, '') as 'titulo',
 	CONCAT (ace.titulo_artigo, ace.titulo_inicio) as '245a',
