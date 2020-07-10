@@ -12,7 +12,8 @@ SELECT
 	ISNULL(ace.is_barras, '') as '020a',
 	ISNULL(ace.is_cod, '') as '020aOld',
 	CONCAT ('(BNWEB)',ace.cod_acervo) as '035z',
-	ISNULL(aut.autores, '') as '100',
+	ISNULL(autprinc.autores, '') as '100',
+	ISNULL(aut.autores, '') as '700',
 	ISNULL(orientador.orientador, '') as 'orientador',
 	ISNULL(LEN(ace.titulo_artigo), '0') as '2452',
 	ISNULL(ace.titulo, '') as 'titulo',
@@ -65,12 +66,28 @@ ON ace.cod_acervo=ass.codigo
 
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT(nome, '--',tipo,'--',qualificador, '--', primeiro, '--', posicao)), ';-;') AS autores
+	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT( codautor,'--', nome, '--',tipo,'--',qualificador)), ';-;') AS autores
 	FROM (
-		SELECT tbaut.cod_acervo as codigo, tbaut.cod_autor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo, tbaut.primeiro as primeiro, tbaut.posicao as posicao
+		SELECT tbaut.cod_acervo as codigo, tbaut.cod_autor as codautor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo
 		FROM [bnweb2].[dbo].[tbibxau0] tbaut
 		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
 		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
+		WHERE primeiro = '1'
+		) as Autores
+	GROUP BY codigo
+) autprinc
+ON ace.cod_acervo=autprinc.codigo
+
+LEFT JOIN
+(
+	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT( codautor,'--', nome, '--',tipo,'--',qualificador)), ';-;') AS autores
+	FROM (
+		SELECT TOP 1000000000 tbaut.cod_acervo as codigo, tbaut.cod_autor as codautor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo
+		FROM [bnweb2].[dbo].[tbibxau0] tbaut
+		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
+		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
+		WHERE primeiro = '0'
+		ORDER BY posicao ASC
 		) as Autores
 	GROUP BY codigo
 ) aut
