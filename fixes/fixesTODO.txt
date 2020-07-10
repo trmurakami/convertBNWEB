@@ -106,18 +106,18 @@ split_field('700', ';-;')
 
 split_field($.700.0, '--')
 if any_equal($.700.0.*,'PF')
-  marc_add('700', ind1, '1', a , $.700.0.0, e, $.700.0.2)
+  marc_add('700', ind1, '1', a , $.700.0.1, e, $.700.0.3)
 end
 if any_equal($.700.0.*,'PJ')
-  marc_add('710', ind1, '1', a , $.700.0.0)
+  marc_add('710', ind1, '1', a , $.700.0.1)
 end
 
 split_field($.700.1, '--')
 if any_equal($.700.1.*,'PF')
-  marc_add('700', ind1, '1', a , $.700.1.0, e, $.700.1.2)
+  marc_add('700', ind1, '1', a , $.700.1.1, e, $.700.1.3)
 end
 if any_equal($.700.1.*,'PJ')
-  marc_add('710', ind1, '1', a , $.700.1.0)
+  marc_add('710', ind1, '1', a , $.700.1.1)
 end
 
 unless all_match('orientador', 'NULL')
