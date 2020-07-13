@@ -54,9 +54,9 @@ ON ace.cod_orientador=orientador.codigo_orientador
 
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT(codigo,'|',nome)), ';-;') AS assuntos
+	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT(cod_assunto,'--',nome)), ';-;') AS assuntos
 	FROM (
-		SELECT tbass.cod_acervo as codigo, tbass.cod_assunto, tbass.posicao, ass.nome as nome
+		SELECT tbass.cod_acervo as codigo, tbass.cod_assunto as cod_assunto, tbass.posicao, ass.nome as nome
 		FROM [bnweb2].[dbo].[tbibxas0] tbass
 		LEFT JOIN [bnweb2].[dbo].[tbibass0] ass ON tbass.cod_assunto=ass.cod_assunto
 		) as Assuntos
