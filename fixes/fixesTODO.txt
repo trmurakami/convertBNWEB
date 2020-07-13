@@ -121,6 +121,95 @@ if any_equal($.700.1.*,'PJ')
   marc_add('710', ind1, '1', a , $.700.1.0)
 end
 
+split_field($.700.2, '--')
+if any_equal($.700.2.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.2.0, e, $.700.2.3)
+end
+if any_equal($.700.2.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.2.0)
+end
+
+split_field($.700.3, '--')
+if any_equal($.700.3.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.3.0, e, $.700.3.3)
+end
+if any_equal($.700.3.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.3.0)
+end
+
+split_field($.700.4, '--')
+if any_equal($.700.4.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.4.0, e, $.700.4.3)
+end
+if any_equal($.700.4.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.4.0)
+end
+
+split_field($.700.5, '--')
+if any_equal($.700.5.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.5.0, e, $.700.5.3)
+end
+if any_equal($.700.5.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.5.0)
+end
+
+split_field($.700.6, '--')
+if any_equal($.700.6.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.6.0, e, $.700.6.3)
+end
+if any_equal($.700.6.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.6.0)
+end
+
+split_field($.700.7, '--')
+if any_equal($.700.7.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.7.0, e, $.700.7.3)
+end
+if any_equal($.700.7.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.7.0)
+end
+
+split_field($.700.8, '--')
+if any_equal($.700.8.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.8.0, e, $.700.8.3)
+end
+if any_equal($.700.8.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.8.0)
+end
+
+split_field($.700.9, '--')
+if any_equal($.700.9.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.9.0, e, $.700.9.3)
+end
+if any_equal($.700.9.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.9.0)
+end
+
+split_field($.700.10, '--')
+if any_equal($.700.10.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.10.0, e, $.700.10.3)
+end
+if any_equal($.700.10.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.10.0)
+end
+
+split_field($.700.11, '--')
+if any_equal($.700.11.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.11.0, e, $.700.11.3)
+end
+if any_equal($.700.11.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.11.0)
+end
+
+split_field($.700.12, '--')
+if any_equal($.700.12.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.12.0, e, $.700.12.3)
+end
+if any_equal($.700.12.*,'PJ')
+  marc_add('710', ind1, '1', a , $.700.12.0)
+end
+
+
 unless all_match('orientador', 'NULL')
   marc_add('700',  ind1, '1', a , $.orientador, e, 'Orientador')
 end;
