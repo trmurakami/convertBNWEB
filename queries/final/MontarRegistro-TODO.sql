@@ -16,18 +16,18 @@ SELECT
 	ISNULL(aut.autores, '') as '700',
 	orientador.orientador as 'orientador',
 	ISNULL(LEN(ace.titulo_artigo), '0') as '2452',
-	ISNULL(ace.titulo, '') as 'titulo',
-	CONCAT (ace.titulo_artigo, ace.titulo_inicio) as '245a',
-	ISNULL(ace.titulo_subtit, '') as '245b', 
+	TRIM(ISNULL(ace.titulo, '')) as 'titulo',
+	TRIM(CONCAT (ace.titulo_artigo, ace.titulo_inicio)) as '245a',
+	TRIM(ISNULL(ace.titulo_subtit, '')) as '245b', 
 	ISNULL(ace.edicao, '') as '250a', 
 	ISNULL(ace.local, '') as '260a',
 	ISNULL(edit.editores, '') as '260b',
 	ISNULL(ace.data_pub, '') as '260c', 
 	ISNULL(ace.colacao, '') as '300',
 	ISNULL(ace.anexo, '') as '300e',
-	ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '') as '490a',
+	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
 	ISNULL(ace.volume_qta, '') as '490v',
-	ISNULL(REPLACE(ace.notas, char(9), ''),'') as '500a',
+	TRIM(ISNULL(REPLACE(ace.notas, char(9), ''),'')) as '500a',
 	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
 	ISNULL(ass.assuntos, '') as '650a',
 	ISNULL(ace.titulo_original, '') as '765t',
@@ -54,7 +54,7 @@ ON ace.cod_orientador=orientador.codigo_orientador
 
 LEFT JOIN
 (
-	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), nome), ';-;') AS assuntos
+	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT(codigo,'|',nome)), ';-;') AS assuntos
 	FROM (
 		SELECT tbass.cod_acervo as codigo, tbass.cod_assunto, tbass.posicao, ass.nome as nome
 		FROM [bnweb2].[dbo].[tbibxas0] tbass
