@@ -33,6 +33,7 @@ SELECT
 	ISNULL(ace.titulo_original, '') as '765t',
 	ISNULL(links.links, '') as '856',
 	ISNULL(REPLACE(anexos.anexos,'\','/'), '') as 'anexos',
+	ISNULL(REPLACE(capa.capa,'\','/'), '') as 'capa',
 	ISNULL(partes.partes, '') as 'partes',
 	ISNULL(volumes.volumes, '') as 'volumes',
 	ISNULL(item.items, '') as 'items',
@@ -165,9 +166,18 @@ LEFT JOIN tbibaco0 AS acon_desc ON acon_desc.cod_acon=acon.acon
 LEFT JOIN (
 	SELECT distinct cod_acervo, STRING_AGG(CONCAT('http://biblioteca.an.gov.br/bnweb/upload/',diretorio,'/',arquivo), ';-;') as anexos
 	FROM [bnweb2].[dbo].[tbibane0]
-	GROUP BY cod_acervo
+	WHERE id_visual = '0'
+	GROUP BY cod_acervo	
 ) anexos
 ON ace.cod_acervo=anexos.cod_acervo
+
+LEFT JOIN (
+	SELECT distinct cod_acervo, STRING_AGG(CONCAT('http://biblioteca.an.gov.br/bnweb/upload/',diretorio,'/',arquivo), ';-;') as capa
+	FROM [bnweb2].[dbo].[tbibane0]
+	WHERE id_visual = '1'
+	GROUP BY cod_acervo
+) capa
+ON ace.cod_acervo=capa.cod_acervo
 
 LEFT JOIN (
 	SELECT cod_fonte, STRING_AGG(CAST(CONCAT('$hv.',fasc_volume,',n.',fasc_numero,'$g',fasc_data) AS VARCHAR(MAX)), ';-;') as fasciculos
