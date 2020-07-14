@@ -25,6 +25,7 @@ SELECT
 	ISNULL(ace.data_pub, '') as '260c', 
 	ISNULL(ace.colacao, '') as '300',
 	ISNULL(ace.anexo, '') as '300e',
+	ISNULL(ace.duracao, '') as '306a',
 	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
 	ISNULL(ace.volume_qta, '') as '490v',
 	TRIM(ISNULL(REPLACE(ace.notas, char(9), ''),'')) as '500a',
