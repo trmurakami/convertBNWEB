@@ -73,6 +73,11 @@ end
 marc_add('300', a , $.300)
 marc_add('490', ind1, '0', a , $.490a, v , $.490v)
 marc_add('500', a , $.500a)
+
+if any_equal($.tipo,'TES')
+  marc_add('502', b , $.502b, c, $.260b, d, $.260c)
+end
+
 marc_add('520', a , $.520a)
 marc_add('520', a , $.partes)
 marc_add('530', a , $.volumes)

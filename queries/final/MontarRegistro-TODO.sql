@@ -30,6 +30,7 @@ SELECT
 	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
 	ISNULL(ace.volume_qta, '') as '490v',
 	TRIM(ISNULL(REPLACE(ace.notas, char(9), ''),'')) as '500a',
+	TRIM(ISNULL(ace.grau,'')) as '502b',
 	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
 	ISNULL(ass.assuntos, '') as '650a',
 	ISNULL(ace.titulo_original, '') as '765t',
@@ -211,6 +212,7 @@ tipo = 'OBJ' OR
 tipo = 'LIT' OR
 tipo = 'PRT' OR
 tipo = 'RET' OR
+tipo = 'RTE' OR
 tipo = 'PAL' OR
 tipo = 'NTC' OR
 tipo = 'TES' OR
