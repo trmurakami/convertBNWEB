@@ -58,6 +58,10 @@ if any_equal($.100.0.*,'PJ')
   marc_add('110', ind1, '1', a , $.100.0.0)
 end
 
+if any_equal($.tipo,'NTC')
+  marc_add('110', ,ind1, '2', a , $.260b, e, 'Editora', 4, 'pbl')
+end
+
 
 split_field(titulo, ':')
 trim($.titulo.1)
@@ -81,6 +85,8 @@ end
 marc_add('520', a , $.520a)
 marc_add('520', a , $.partes)
 marc_add('530', a , $.volumes)
+
+marc_add('647', a , $.647a)
 
 copy_field('650a','assuntos')
 split_field(assuntos, ';-;')
@@ -221,6 +227,10 @@ end
 unless all_match('orientador', 'NULL')
   marc_add('700',  ind1, '1', a , $.orientador, e, 'Orientador')
 end;
+
+if any_equal($.tipo,'TES')
+  marc_add('710', ,ind1, '2', a , $.260b, e, 'Instituição que concede o diploma', 4, 'dgg')
+end
 
 marc_add('765', ind1, '0', t, $.765t)
 
