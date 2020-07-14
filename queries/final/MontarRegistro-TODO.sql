@@ -24,6 +24,7 @@ SELECT
 	ISNULL(edit.editores, '') as '260b',
 	ISNULL(ace.data_pub, '') as '260c', 
 	ISNULL(ace.colacao, '') as '300',
+	ISNULL(ace.colorido, '') as '300b',
 	ISNULL(ace.anexo, '') as '300e',
 	ISNULL(ace.duracao, '') as '306a',
 	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
