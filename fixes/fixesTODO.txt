@@ -71,6 +71,8 @@ else
   marc_add('245', ind1, '0', ind2, '0', a , $.titulo.0, b , $.titulo.1)
 end
 
+marc_add('246', ind1, '2', a , $.246a)
+
 marc_add('250', a , $.250a)
 
 if any_equal($.tipo,'CDR')
