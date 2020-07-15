@@ -31,6 +31,7 @@ SELECT
 	ISNULL(ace.volume_qta, '') as '490v',
 	TRIM(ISNULL(REPLACE(ace.notas, char(9), ''),'')) as '500a',
 	TRIM(ISNULL(ace.grau,'')) as '502b',
+	TRIM(ISNULL(ace.conteudo,'')) as '505a',
 	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
 	ISNULL(ace.congresso, '') as '647a',
 	ISNULL(ass.assuntos, '') as '650a',	
