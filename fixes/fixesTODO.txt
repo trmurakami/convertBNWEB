@@ -94,7 +94,6 @@ end
 marc_add('505', ind1, '0', a , $.505a)
 marc_add('520', a , $.520a)
 marc_add('520', a , $.partes)
-marc_add('530', a , $.volumes)
 
 marc_add('647', a , $.647a)
 
