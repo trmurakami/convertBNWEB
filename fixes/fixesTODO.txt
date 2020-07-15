@@ -328,7 +328,14 @@ if all_match('anexos.2', 'pdf')
 end
 
 split_field('items', ';-;')
-marc_add('942', c , $.tipo)
+
+if any_equal($.visivel,'1')
+  marc_add('942', c , $.tipo)
+else
+  marc_add('942', c , $.tipo, n, 'YES')
+end
+
+
 marc_add('952', p , $.items.0)
 marc_add('952', p , $.items.1)
 marc_add('952', p , $.items.2)
