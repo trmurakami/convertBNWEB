@@ -33,6 +33,7 @@ SELECT
 	TRIM(ISNULL(ace.grau,'')) as '502b',
 	TRIM(ISNULL(ace.conteudo,'')) as '505a',
 	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
+	TRIM(ISNULL(ace.notas_disp,'')) as '591a',
 	ISNULL(ace.congresso, '') as '647a',
 	ISNULL(ass.assuntos, '') as '650a',	
 	ISNULL(ace.titulo_original, '') as '765t',
@@ -147,7 +148,7 @@ LEFT JOIN
 ON ace.cod_acervo=volumes.codigo
 
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$e',TRIM(str_tp_aqui),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,' ',cutter,' ',complemento,' ',data_pub,' ',edicao,'$t',exemp,'$y','$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$e',TRIM(str_tp_aqui),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,'$t',exemp,'$y','$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
 	FROM [bnweb2].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) item
