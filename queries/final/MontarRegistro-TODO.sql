@@ -77,7 +77,7 @@ LEFT JOIN
 		FROM [bnweb2].[dbo].[tbibxau0] tbaut
 		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
 		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
-		WHERE primeiro = '1'
+		WHERE tipo_entrada = '1'
 		) as Autores
 	GROUP BY codigo
 ) autprinc
@@ -87,11 +87,11 @@ LEFT JOIN
 (
 	SELECT codigo, STRING_AGG(CONVERT(nvarchar(max), CONCAT( codautor,'--', nome, '--',tipo,'--',qualificador)), ';-;') AS autores
 	FROM (
-		SELECT TOP 1000000000 tbaut.cod_acervo as codigo, tbaut.cod_autor as codautor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo
+		SELECT TOP 2147483647 tbaut.cod_acervo as codigo, tbaut.cod_autor as codautor, aut.tit1 as nome, qua.nome as qualificador, aut.tipo as tipo
 		FROM [bnweb2].[dbo].[tbibxau0] tbaut
 		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
 		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
-		WHERE primeiro = '0'
+		WHERE tipo_entrada = '2'
 		ORDER BY posicao ASC
 		) as Autores
 	GROUP BY codigo

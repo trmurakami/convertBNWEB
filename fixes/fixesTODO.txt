@@ -68,7 +68,16 @@ trim($.titulo.1)
 marc_add('245', ind1, '0', ind2, '0', a , $.titulo.0, b , $.titulo.1)
 
 marc_add('250', a , $.250a)
-marc_add('260', a , $.260a, b , $.260b, c , $.260c)
+
+if any_equal($.tipo,'CDR')
+  marc_add('264', ind2, '2', a , $.260a, b , $.260b, c , $.260c)
+end
+
+if any_equal($.tipo,'DVD')
+  marc_add('264', ind2, '2', a , $.260a, b , $.260b, c , $.260c)
+else
+  marc_add('260', a , $.260a, b , $.260b, c , $.260c)
+end
 
 if is_number('260c')
   marc_set('008_/07-10',$.260c)
