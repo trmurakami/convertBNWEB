@@ -59,13 +59,17 @@ if any_equal($.100.0.*,'PJ')
 end
 
 if any_equal($.tipo,'NTC')
-  marc_add('110', ,ind1, '2', a , $.260b, e, 'Editora', 4, 'pbl')
+  marc_add('110', ind1, '2', a, $.260b, e, 'Editora', 4, 'pbl')
 end
-
 
 split_field(titulo, ':')
 trim($.titulo.1)
-marc_add('245', ind1, '0', ind2, '0', a , $.titulo.0, b , $.titulo.1)
+
+if marc_all_match('100','.')
+  marc_add('245', ind1, '1', ind2, '0', a , $.titulo.0, b , $.titulo.1)
+else
+  marc_add('245', ind1, '0', ind2, '0', a , $.titulo.0, b , $.titulo.1)
+end
 
 marc_add('250', a , $.250a)
 
@@ -233,13 +237,12 @@ if any_equal($.700.12.*,'PJ')
   marc_add('710', ind1, '1', a , $.700.12.0)
 end
 
-
 unless all_match('orientador', 'NULL')
   marc_add('700',  ind1, '1', a , $.orientador, e, 'Orientador')
 end;
 
 if any_equal($.tipo,'TES')
-  marc_add('710', ,ind1, '2', a , $.260b, e, 'Instituição que concede o diploma', 4, 'dgg')
+  marc_add('710', ind1, '2', a , $.260b, e, 'Instituição que concede o diploma', 4, 'dgg')
 end
 
 marc_add('765', ind1, '0', t, $.765t)
