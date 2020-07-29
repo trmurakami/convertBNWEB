@@ -25,7 +25,15 @@ SELECT
 	ISNULL(edit.editores, '') as '260b',
 	ISNULL(ace.data_pub, '') as '260c', 
 	ISNULL(ace.colacao, '') as '300',
-	ISNULL(ace.colorido, '') as '300b',
+	ISNULL(ace.colorido, '') as 'colorido',
+	ISNULL(ace.dublado, '') as 'dublado',
+	ISNULL(ace.legendado, '') as 'legendado',
+	ISNULL(ace.sonoro, '') as 'sonoro',
+	ISNULL(ace.sistema_operacional, '') as 'sistema_operacional',
+	ISNULL(ace.faixa_etaria, '') as 'faixa_etaria',
+	ISNULL(ace.censura, '') as 'censura',
+	ISNULL(ace.numero_norma, '') as 'numero_norma',
+	ISNULL(ace.numero_norma2, '') as 'numero_norma2',
 	ISNULL(ace.anexo, '') as '300e',
 	ISNULL(ace.duracao, '') as '306a',
 	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
@@ -201,7 +209,8 @@ LEFT JOIN (
 ON ace.cod_acervo=capitulo.cod_fonte
 
 WHERE 
-tipo = 'LIV' OR 
+ace.cod_acervo = '65723' AND 
+(tipo = 'LIV' OR 
 tipo = 'LRA' OR 
 tipo = 'FOL' OR 
 tipo = 'CAT' OR 
@@ -221,4 +230,4 @@ tipo = 'PAL' OR
 tipo = 'NTC' OR
 tipo = 'TES' OR
 tipo = 'ENC' OR
-tipo = 'REV'
+tipo = 'REV')
