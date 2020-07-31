@@ -209,8 +209,7 @@ LEFT JOIN (
 ON ace.cod_acervo=capitulo.cod_fonte
 
 WHERE 
-ace.cod_acervo = '65723' AND 
-(tipo = 'LIV' OR 
+tipo = 'LIV' OR 
 tipo = 'LRA' OR 
 tipo = 'FOL' OR 
 tipo = 'CAT' OR 
@@ -230,4 +229,4 @@ tipo = 'PAL' OR
 tipo = 'NTC' OR
 tipo = 'TES' OR
 tipo = 'ENC' OR
-tipo = 'REV')
+tipo = 'REV'
