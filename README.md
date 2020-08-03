@@ -26,3 +26,9 @@ Códigos e conversor do BNWEB para MARC21
     UPDATE dbo.tbibace0 SET notas = LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(notas, CHAR(9), ''), CHAR(10), ''), CHAR(13), '')))
     
     catmandu convert CSV --sep_char '\t' --fix fixes/fixesLIV.txt to MARC < data/AN-LIV.tsv > data/export.mrc
+
+# Notepad ++
+
+    Corrigir o 245 subcampo 2
+    Pesquisar por: =200  \\\\\$a(.)\r\n=245  (.)(.)
+    Substituir por: =245  \2\1
