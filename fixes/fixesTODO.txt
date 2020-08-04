@@ -101,13 +101,10 @@ end
 marc_add('300', a , $.300)
 marc_add('490', ind1, '0', a , $.490a, v , $.490v)
 marc_add('500', a , $.500a)
-if any_equal($.dublado,'1')
-  marc_add('500', a , "Dublado")
-end
-if any_equal($.legendado,'1')
-  marc_add('500', a , "Legendado")
-end
+marc_add('500', a , $.dublado)
+marc_add('500', a , $.legendado)
 marc_add('500', a , $.censura)
+marc_add('500', a , $.faixa_etaria)
 
 if any_equal($.tipo,'TES')
   marc_add('502', b , $.502b, c, $.260b, d, $.260c)
