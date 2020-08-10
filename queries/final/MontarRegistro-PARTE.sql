@@ -58,6 +58,11 @@ SELECT
 	ISNULL(acon_desc.nome, '') as 'areacon_nome',
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
 	ISNULL(capitulo.capitulos, '') as 'capitulos',
+	ISNULL(ace.fonte, '') as 'fonte_nome',
+	ISNULL(ace.fonte_subtit, '') as 'fonte_subtit',
+	ISNULL(ace.fasc_volume, '') as 'fasc_volumes',
+	ISNULL(ace.fasc_numero, '') as 'fasc_numero',
+	ISNULL(ace.fasc_data, '') as 'fasc_data',
 	ace.cod_fonte as 'cod_fonte',
 	ISNULL(fonte.fonte, '') as 'fonte'
 FROM 
@@ -220,4 +225,5 @@ ON ace.cod_fonte=fonte.cod_acervo
 WHERE tipo = 'PEV' OR
 tipo = 'PLV' OR
 tipo = 'PTC' OR
-tipo = 'PLC'
+tipo = 'PLC' OR
+tipo = 'ART'
