@@ -208,5 +208,12 @@ LEFT JOIN (
 ) fasc
 ON ace.cod_acervo=fasc.cod_fonte
 
+LEFT JOIN (
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(titulo,'$w',cod_fonte) AS VARCHAR(MAX)), ';-;') as capitulos
+	FROM [bnweb2].[dbo].[tbibace0]
+ 	GROUP BY cod_fonte
+) capitulo
+ON ace.cod_acervo=capitulo.cod_fonte
+
 WHERE tipo = 'PER' OR
 tipo = 'EVE'
