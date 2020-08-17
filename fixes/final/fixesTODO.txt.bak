@@ -244,9 +244,9 @@ if any_equal($.700.11.*,'PJ')
   marc_add('710', ind1, '1', a , $.700.11.0)
 end
 
-split_field($.100.11, '--')
-if any_equal($.100.11.*,'PF')
-  marc_add('700', ind1, '1', a , $.100.11.0)
+split_field($.700.12, '--')
+if any_equal($.700.12.*,'PF')
+  marc_add('700', ind1, '1', a , $.700.12.0, e, $.700.12.3)
 end
 if any_equal($.700.12.*,'PJ')
   marc_add('710', ind1, '1', a , $.700.12.0)
