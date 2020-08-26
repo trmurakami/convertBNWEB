@@ -65,6 +65,8 @@ if any_equal($.tipo,'NTC')
   marc_add('110', ind1, '2', a, $.260b, e, 'Editora', 4, 'pbl')
 end
 
+marc_add('111', ind1, '2', a , $.111a, c , $.111c , d , $.111d , n , $.111n, g , $.111g)
+
 marc_add('200', a , $.2452)
 
 split_field(titulo, ':')
@@ -257,7 +259,7 @@ unless all_match('orientador', 'NULL')
 end;
 
 if any_equal($.tipo,'TES')
-  marc_add('710', ind1, '2', a , $.260b, e, 'Instituição que concede o diploma', 4, 'dgg')
+  marc_add('710', ind1, '2', a , $.260b, e, 'Instituiï¿½ï¿½o que concede o diploma', 4, 'dgg')
 end
 
 marc_add('765', ind1, '0', t, $.765t)
