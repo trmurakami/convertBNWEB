@@ -7007,7 +7007,7 @@ cod_autor|nome_completo
 8077|Scufflaire, Andrée
 8078|Malcher, Lia Temporal
 8079|Nielsen, Lawrence James
-8080|Casa de La Cultura Ecuatoriana "Benjamin Carrion
+8080|Casa de La Cultura Ecuatoriana Benjamin Carrion
 8081|Asociacion Venezolana de Archiveros
 8082|Amaral, Antônio Barreto do
 8083|São Paulo (Estado). Repartição de Estatística e do Archivo
@@ -14533,7 +14533,7 @@ cod_autor|nome_completo
 16111|Figueiredo Junior, Joaquim Antunes de
 16113|Meireles, Silo
 16114|Figuerêdo, José Paulino de
-16115|Courteville, Martha Emma Seedorf de, "Mme. R. Courteville
+16115|Courteville, Martha Emma Seedorf de, Mme. R. Courteville
 16116|Macintyre, Archie
 16117|Zaidman, Diana
 16118|Biason, Mary Angela
@@ -15229,7 +15229,7 @@ cod_autor|nome_completo
 16839|Matsuura, Koichiro
 16840|Salles, Joaquim de
 16841|Aurora, Conde d'
-16842|Sociedad "Amigos de Palma
+16842|Sociedad Amigos de Palma
 16843|Lucas-Dubreton, Jean Marie
 16844|De Maria, Isidoro
 16845|Brasil. Ministério do Interior. Projeto de desenvolvimento Integrado da Bacia do Araguaia-Tocantins - Prodiat
@@ -18448,7 +18448,7 @@ cod_autor|nome_completo
 20158|Vasconcellos, Hélio Rocha Cabral de
 20160|Sampaio, Aidil
 20161|Rocha, Risalva Vasconcelos
-20162|Arquivo Histórico e Museu de Canoas "Dr. Sezefredo Azambuja Vieira"
+20162|Arquivo Histórico e Museu de Canoas Dr. Sezefredo Azambuja Vieira
 20163|Bastos, Tocary Assis
 20164|Davidoff, Carlos Henrique
 20165|Stein, Leila de Meneses

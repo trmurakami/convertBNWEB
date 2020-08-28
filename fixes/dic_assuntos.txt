@@ -385,7 +385,7 @@ cod_assunto|nome_novo
 486|Santiago de Compostela (Espanha)
 487|Séculos XII-XVI
 489|Teoria
-490|Escola dos "Annales
+490|Escola dos Annales
 491|História econômica
 492|Gordilho (Família)
 494|Votuporanga (SP)
@@ -4970,7 +4970,7 @@ cod_assunto|nome_novo
 7180|Escola Técnica, São Paulo
 7185|Educação e tecnologia
 7186|Liga Nacionalista de São Paulo
-7187|Biblioteca Municipal "Felisa Lisasola
+7187|Biblioteca Municipal Felisa Lisasola
 7188|Biblioteca Municipal de Salto
 7189|Palácio das indústrias
 7190|Misericórdia (RJ)
@@ -5108,7 +5108,7 @@ cod_assunto|nome_novo
 7365|Sistema bancário
 7366|Pantanal (MS)
 7368|Canoas (RS)
-7369|Projeto "Canoas para Lembrar Quem Somos
+7369|Projeto Canoas para Lembrar Quem Somos
 7370|Cidadão
 7371|Serviço social
 7372|Documentos eletrônicos
@@ -10971,7 +10971,7 @@ cod_assunto|nome_novo
 15808|História, 1565-1910
 15809|Amaral, Antonio Henrique, 1935-
 15810|Herzog, Vladimir, 1937-1975
-15811|Política do "Café Com Leite", 1898-1930
+15811|Política do Café Com Leite, 1898-1930
 15812|Fonseca, Eduardo Giannetti da, 1958-
 15813|Interceptação telefônica
 15814|Operação Lutfalla
@@ -18678,7 +18678,7 @@ cod_assunto|nome_novo
 23803|Macedo, José de, n.1876
 23804|Laxe, Maria Júlia Cortines, 1863-1948
 23805|Dias, Teófilo, 1854-1889
-23806|Museu Histórico de Jaraguá do Sul "Emílio da Silva"
+23806|Museu Histórico de Jaraguá do Sul Emílio da Silva
 23807|Revistas
 23808|União de Nações Sul-Americanas (UNASUL)
 23809|Ocupação portuguesa
@@ -23238,7 +23238,7 @@ cod_assunto|nome_novo
 28515|Penteado, Yolanda, 1903-1983
 28516|Memórias do Cárcere (Livro)
 28517|Relatórios diversos
-28518|Centro de Apoio à Pesquisa em História "Sérgio Buarque de Holanda
+28518|Centro de Apoio à Pesquisa em História Sérgio Buarque de Holanda
 28519|Arte holandesa
 28520|Inspetoria Geral das Terras e Colonização
 28521|Relatórios técnico-científicos
@@ -23770,7 +23770,7 @@ cod_assunto|nome_novo
 29090|Mendes, Ismene, 1956-1985
 29091|Comissão da Verdade (Minas Gerais)
 29092|Ismênia (Peça Teatral)
-29093|Subcomissão da Verdade do Triângulo Mineiro e Alto Paranaíba "Ismene Mendes"
+29093|Subcomissão da Verdade do Triângulo Mineiro e Alto Paranaíba Ismene Mendes
 29094|Agencia Suiza para el Desarrollo y la Cooperación (Cosude)
 29095|Archivo Federal Suizo
 29096|Massacre de Nanquin (China)
