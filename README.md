@@ -20,6 +20,8 @@ Códigos e conversor do BNWEB para MARC21
 
     Copiar valores faltando: cells["650a"].value
 
+    Criar campo fonte_completa: cells['fonte_nome'].value + '$hv.' + cells['fasc_volumes'].value +'n.' + cells['fasc_numero'].value + '$g' + cells['fasc_data'].value 
+
 
 # Converter para MARC21
 

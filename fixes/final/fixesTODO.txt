@@ -145,6 +145,7 @@ marc_add('650', ind2, '4', a , $.assuntos.18.0)
 marc_add('650', ind2, '4', a , $.assuntos.19.0)
 marc_add('650', ind2, '4', a , $.assuntos.20.0)
 
+
 split_field('700', ';-;')
 split_field($.700.0, '--')
 lookup("700.*.0","fixes/dic_autores.txt", sep_char:'|')
