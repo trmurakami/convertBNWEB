@@ -159,6 +159,7 @@ if any_equal($.700.0.*,'PJ')
 end
 
 split_field($.700.1, '--')
+lookup("700.1.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.1.*,'PF')
   marc_add('700', ind1, '1', a , $.700.1.0, e, $.700.1.3)
 end
@@ -167,6 +168,7 @@ if any_equal($.700.1.*,'PJ')
 end
 
 split_field($.700.2, '--')
+lookup("700.2.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.2.*,'PF')
   marc_add('700', ind1, '1', a , $.700.2.0, e, $.700.2.3)
 end
@@ -175,6 +177,7 @@ if any_equal($.700.2.*,'PJ')
 end
 
 split_field($.700.3, '--')
+lookup("700.3.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.3.*,'PF')
   marc_add('700', ind1, '1', a , $.700.3.0, e, $.700.3.3)
 end
@@ -183,6 +186,7 @@ if any_equal($.700.3.*,'PJ')
 end
 
 split_field($.700.4, '--')
+lookup("700.4.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.4.*,'PF')
   marc_add('700', ind1, '1', a , $.700.4.0, e, $.700.4.3)
 end
@@ -191,6 +195,7 @@ if any_equal($.700.4.*,'PJ')
 end
 
 split_field($.700.5, '--')
+lookup("700.5.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.5.*,'PF')
   marc_add('700', ind1, '1', a , $.700.5.0, e, $.700.5.3)
 end
@@ -199,6 +204,7 @@ if any_equal($.700.5.*,'PJ')
 end
 
 split_field($.700.6, '--')
+lookup("700.6.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.6.*,'PF')
   marc_add('700', ind1, '1', a , $.700.6.0, e, $.700.6.3)
 end
@@ -207,6 +213,7 @@ if any_equal($.700.6.*,'PJ')
 end
 
 split_field($.700.7, '--')
+lookup("700.7.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.7.*,'PF')
   marc_add('700', ind1, '1', a , $.700.7.0, e, $.700.7.3)
 end
@@ -215,6 +222,7 @@ if any_equal($.700.7.*,'PJ')
 end
 
 split_field($.700.8, '--')
+lookup("700.8.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.8.*,'PF')
   marc_add('700', ind1, '1', a , $.700.8.0, e, $.700.8.3)
 end
@@ -223,6 +231,7 @@ if any_equal($.700.8.*,'PJ')
 end
 
 split_field($.700.9, '--')
+lookup("700.9.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.9.*,'PF')
   marc_add('700', ind1, '1', a , $.700.9.0, e, $.700.9.3)
 end
@@ -231,6 +240,7 @@ if any_equal($.700.9.*,'PJ')
 end
 
 split_field($.700.10, '--')
+lookup("700.10.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.10.*,'PF')
   marc_add('700', ind1, '1', a , $.700.10.0, e, $.700.10.3)
 end
@@ -239,6 +249,7 @@ if any_equal($.700.10.*,'PJ')
 end
 
 split_field($.700.11, '--')
+lookup("700.11.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.11.*,'PF')
   marc_add('700', ind1, '1', a , $.700.11.0, e, $.700.11.3)
 end
@@ -247,6 +258,7 @@ if any_equal($.700.11.*,'PJ')
 end
 
 split_field($.700.12, '--')
+lookup("700.12.0","fixes/dic_autores.txt", sep_char:'|')
 if any_equal($.700.12.*,'PF')
   marc_add('700', ind1, '1', a , $.700.12.0, e, $.700.12.3)
 end
