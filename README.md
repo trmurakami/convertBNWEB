@@ -17,6 +17,7 @@ Códigos e conversor do BNWEB para MARC21
     Rodar no itens: replace(value,"$y","$y"+cells['tipo'].value)
     Rodar nos assuntos: cell.cross('AN Assuntos Editado','nome').cells['nome_novo'].value[0]
     Rodar nos autores: cell.cross('AN AUTORES BNWEB','nome_completo_caps').cells['nome_completo'].value[0]
+    Rodar no cod_acervo: cell.cross('TODOS OS ASSUNTOS','cod_acervo').cells['650a 2'].value[0]
 
     Copiar valores faltando: cells["650a"].value
 
