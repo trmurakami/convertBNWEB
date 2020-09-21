@@ -9,7 +9,7 @@ Códigos e conversor do BNWEB para MARC21
 
     Rodar as queries da pasta queries
 
-# OpenRefime
+# OpenRefine
 
     Subir no OpenRefine. Rodar os comandos do openrefine e exportar em TSV
 
