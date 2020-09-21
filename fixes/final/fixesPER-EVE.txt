@@ -121,7 +121,7 @@ marc_add('592',  ind1, '4',  b , $.areacon_nome, x , $.areacon_sian, z, $.areaco
 
 marc_add('647', ind2, '4', a , $.647a)
 
-copy_field('650a','assuntos')
+copy_field('650a_ordenado','assuntos')
 split_field(assuntos, ';-;')
 
 split_field(assuntos.*, '--')
