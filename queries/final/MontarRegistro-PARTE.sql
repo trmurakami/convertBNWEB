@@ -59,6 +59,7 @@ SELECT
 	ISNULL(fasc.fasciculos, '') as 'fasciculos',
 	ISNULL(capitulo.capitulos, '') as 'capitulos',
 	ISNULL(ace.fonte, '') as 'fonte_nome',
+	ISNULL(ace.fasc_titulo, '') as 'fasc_titulo',
 	ISNULL(ace.fonte_subtit, '') as 'fonte_subtit',
 	ISNULL(ace.fasc_volume, '') as 'fasc_volumes',
 	ISNULL(ace.fasc_numero, '') as 'fasc_numero',
