@@ -1,11 +1,12 @@
-SELECT
+SELECT * FROM 
+(SELECT
 	ace.cod_acervo,
 	ace.fasc_titulo,
 	cla.classificacao,
-	cla1.cod_acervo,
+	cla1.cod_acervo as cod_acervo_cla,
 	cla1.titulo,
 	cla1.ace_tipo,
-	cla1.classificacao,
+	cla1.classificacao as classificacao_cla,
 	CONCAT(cla1.titulo,'$w',cla1.cod_acervo) as fonte
 FROM dbo.tbibace0 AS ace
 
@@ -38,4 +39,5 @@ ON cla.classificacao=cla1.classificacao
 WHERE tipo = 'PEV' OR
 tipo = 'PLV' OR
 tipo = 'PTC' OR
-tipo = 'PLC'
+tipo = 'PLC') ab
+WHERE fonte <> '$w'

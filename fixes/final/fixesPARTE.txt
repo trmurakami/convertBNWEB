@@ -1,4 +1,4 @@
-marc_add('LDR', _ , '00000nam  2200000Ia 4500')
+marc_add('LDR', _ , '00000naa  2200000Ia 4500')
 marc_set('LDR_/7','a')
 marc_add('001', _ , $.001)
 marc_add('008', _ ,'200415s9999                  000 0     |')
@@ -280,6 +280,7 @@ marc_add('765', ind1, '0', t, $.765t)
 
 marc_add('773',  ind1, '0', t , $.fonte)
 marc_add('773',  ind1, '0', t , $.fonte_completa)
+marc_add('773',  ind1, '0', t , $.analiticaspai)
 
 #split_field('holdings', ';-;')
 #sort_field('holdings', uniq:1)
