@@ -29,6 +29,8 @@ marc_add('041', a , $.008-35-37.1)
 lookup("008-35-37.2","fixes/dic_language.txt", sep_char:'|')
 marc_add('041', a , $.008-35-37.2)
 
+marc_add('090', a , $.090a)
+
 split_field('092a', ';-;')
 copy_field("092a","classificacao")
 substring("092a.0",0,3)
