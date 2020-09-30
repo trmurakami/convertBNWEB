@@ -35,3 +35,7 @@ Códigos e conversor do BNWEB para MARC21
     Corrigir o 245 subcampo 2
     Pesquisar por: =200  \\\\\$a(.)\r\n=245  (.)(.)
     Substituir por: =245  \2\1
+
+    Campo notas
+    Pesquisar por: ^(=500.*?)\|(.*)$
+    Subtituir por: \1\r\n=500  \\\\\$a\2
