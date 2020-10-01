@@ -36,6 +36,16 @@ SELECT
 	ISNULL(ace.censura, '') as 'censura',
 	ISNULL(ace.numero_norma, '') as 'numero_norma',
 	ISNULL(ace.numero_norma2, '') as 'numero_norma2',
+
+	ISNULL(ace.nacional, '') as 'nacional',
+	ISNULL(ace.cod_periodicidade, '') as 'cod_periodicidade',
+	ISNULL(ace.cientifico, '') as 'cientifico',
+	ISNULL(ace.academico, '') as 'academico',
+	ISNULL(ace.generalidade, '') as 'generalidade',
+	ISNULL(ace.periodico_raro, '') as 'periodico_raro',
+	ISNULL(ace.periodico_tecnico, '') as 'periodico_tecnico',
+	ISNULL(ace.periodico_segmentado, '') as 'periodico_segmentado',
+
 	ISNULL(ace.anexo, '') as '300e',
 	ISNULL(ace.duracao, '') as '306a',
 	TRIM(ISNULL(CONCAT (ace.serie_art,' ', ace.serie), '')) as '490a',
