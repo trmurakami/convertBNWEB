@@ -8,6 +8,7 @@ end
 
 marc_add('020', a , $.020a)
 marc_add('020', a , $.020aOld)
+marc_add('022', a , $.022a)
 marc_add('035', z , $.035z)
 
 #marc_set('008_/35-37',$.language)
@@ -103,6 +104,7 @@ if is_number('260c')
 end
 
 marc_add('300', a , $.300)
+marc_add('310', a , $.310a)
 marc_add('490', ind1, '0', a , $.490a, v , $.490v)
 marc_add('500', a , $.500a)
 marc_add('500', a , $.dublado)
@@ -362,6 +364,8 @@ if any_equal($.visivel,'1')
 else
   marc_add('942', c , $.tipo, n, 'YES')
 end
+
+marc_add('945', l , $.nacional, p , $.cientifico, p, $.academico, p, $.generalidade, p, $.periodico_raro, p, $.periodico_tecnico, p, $.periodico_segmentado)
 
 split_field('items', ';-;')
 
