@@ -348,6 +348,8 @@ marc_add('774',  ind1, '0', t , $.capitulos.55)
 #marc_add('852', a , $.holdings.0)
 #marc_add('852', a , $.holdings.1)
 
+marc_add('856', u , $.856)
+
 split_field('anexos', ';-;')
 if all_match('anexos.0', 'pdf')
   marc_add('856',  ind1, '4', ind2, '0', u , $.anexos.0)
