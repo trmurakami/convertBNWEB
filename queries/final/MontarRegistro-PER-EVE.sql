@@ -206,7 +206,7 @@ LEFT JOIN (
 ON ace.cod_acervo=capa.cod_acervo
 
 LEFT JOIN (
-	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$b',REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$p',item_fas.item_fas,'$h',ano,'  Ano ', fasc_ano,', v.',fasc_volume,', n.',fasc_numero,', ',fasc_data,'$yPER','$z',item_fas.notas,'$7',REPLACE(REPLACE(REPLACE(item_fas.empresta,'0','2'),'1','0'),'2','1')) AS VARCHAR(MAX)), ';-;') as fasciculos
+	SELECT cod_fonte, STRING_AGG(CAST(CONCAT(REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$b',REPLACE(REPLACE(cod_unidade,'1','BC'),'2','BIBCOREG'),'$p',item_fas.item_fas,'$h',ano,'  Ano ', fasc_ano,', v.',fasc_volume,', n.',fasc_numero,', ',fasc_data,'$yPER','$z',item_fas.notas,'$3',titulo,'$7',REPLACE(REPLACE(REPLACE(item_fas.empresta,'0','2'),'1','0'),'2','1')) AS VARCHAR(MAX)), ';-;') as fasciculos
 	FROM [bnweb2].[dbo].[tbibace0]
 	LEFT JOIN (
 		SELECT distinct cod_acervo as cod1, STRING_AGG(cod_item, '|') as item_fas, empresta, notas
