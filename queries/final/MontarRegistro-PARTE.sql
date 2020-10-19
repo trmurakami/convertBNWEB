@@ -165,7 +165,7 @@ LEFT JOIN
 ON ace.cod_acervo=volumes.codigo
 
 LEFT JOIN (
-	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_inc,23),'$e',TRIM(str_tp_aqui),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,'$t',exemp,'$y','$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
+	SELECT cod_acervo, STRING_AGG(CONCAT(cod_item, '$a',sigla_unidade,'$b',sigla_unidade, '$d', CONVERT(varchar,dt_registro,23),'$e',TRIM(str_tp_aqui),'$h',TRIM(ISNULL(volume,'')),volume_qta,'$i',patrimonio,cod_old,'$o',classificacao,'$t',exemp,'$y','$0',baixado, '$7', REPLACE(REPLACE(REPLACE(empresta,'0','2'),'1','0'),'2','1')), ';-;') as items
 	FROM [bnweb2].[dbo].[vbibite0]
 	GROUP BY cod_acervo
 ) item
