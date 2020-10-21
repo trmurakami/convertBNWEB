@@ -43,3 +43,10 @@ Códigos e conversor do BNWEB para MARC21
     Excluir 774 vazio
     Pesquisar por: \r\n=774  0\\\$t\$w.*\r\n
     Substituir por: \r\n
+
+    Corrigir códigos de barras
+    Pesquisar por: =952  \\\\\$p(\d)\$
+    Substituir por: =952  \\\\\$p0000\1\$
+
+    Erro em exemplares com mais de um arquivo digital
+    http://biblioteca.an.gov.br/bnweb/upload/pasta2\acervo18092/18092_1129.pdf
