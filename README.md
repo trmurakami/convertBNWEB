@@ -47,7 +47,7 @@ Códigos e conversor do BNWEB para MARC21
 
     Corrigir códigos de barras
     Pesquisar por: =952  \\\\\$p(\d)\$
-    Substituir por: =952  \\\\\$p0000\1\$
+    Substituir por: =952  \\\\\$p00000\1\$
 
     Erro em exemplares com mais de um arquivo digital
     http://biblioteca.an.gov.br/bnweb/upload/pasta2\acervo18092/18092_1129.pdf
