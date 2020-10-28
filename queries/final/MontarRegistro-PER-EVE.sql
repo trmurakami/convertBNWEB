@@ -222,7 +222,7 @@ LEFT JOIN (
 	) item_fas
 	ON cod_acervo=item_fas.cod1
 	LEFT JOIN (
-		SELECT distinct cod_acervo as cod2, STRING_AGG(CONCAT('http://biblioteca.an.gov.br/bnweb/upload/',diretorio,'/',arquivo), ';-;') as anexos
+		SELECT distinct cod_acervo as cod2, REPLACE(STRING_AGG(CONCAT('http://biblioteca.an.gov.br/bnweb/upload/',diretorio,'/',arquivo), ';-;'),'\','/') as anexos
 		FROM [bnweb2].[dbo].[tbibane0]
 		WHERE id_visual = '0'
 		GROUP BY cod_acervo
