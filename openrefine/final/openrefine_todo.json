@@ -1,0 +1,7085 @@
+[
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Fancês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Russo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--rus"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Árabe--Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ara--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Árabe--Inglês/Francês/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ara--eng--fre--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Biography"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão--Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Chinês/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "chi--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Chinese--Francês--Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "chi--fre--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Conference publication"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "English"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Eslavo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "sla"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Francês--Inglês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--fre--eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Inglês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Basco"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--baq"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Inglês/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--eng--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Esperanto"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "epo"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Inglês--Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--eng--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Inglês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Holandês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--dut"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "French"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Galego"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gag"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Grego"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Grego/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gre--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Grego/Latim"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gre--lat"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Húngaro--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "hun--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Árabe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--ara"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Coreano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--kor"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Francês/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--fre--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Francês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--fre--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Japonês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "jap"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Japonês/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "jap--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Japonês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "jap--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Latim"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "lat"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Latim/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "lat--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Latim/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "lat--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Latim/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "lat--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "PolishView all editions and formats"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "pol"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Polonês/Inglês/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "pol--eng--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Polonês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "pol--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Árabe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--ara"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Esperanto"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--epo"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Grego"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--gre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Inglês/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--eng--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Inglês/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--eng--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Portuguese"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Romeno"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "rum"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Russo"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "rus"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Russo/Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "rus--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Sueco"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "swe"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Tcheco/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cze--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Trilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Tupi Guarani"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "tup"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Vietnamita/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "vie--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [],
+          "fromBlank": true,
+          "fromError": false,
+          "to": "und"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "titulo",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column titulo using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "titulo",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column titulo using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "246a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 246a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "246a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 246a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "250a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 250a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "250a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 250a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260c",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260c using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260c",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260c using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column censura using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column censura using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column faixa_etaria using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column faixa_etaria using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma2",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma2 using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma2",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma2 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300e",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300e using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300e",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300e using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "306a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 306a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "306a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 306a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490v",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490v using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490v",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490v using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "500a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 500a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "500a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 500a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "502b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 502b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "502b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 502b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "505a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 505a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "505a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 505a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "520a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 520a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "520a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 520a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "591a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 591a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "591a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 591a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "647a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 647a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "647a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 647a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "765t",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 765t using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "765t",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 765t using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "856",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 856 using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "856",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 856 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "anexos",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column anexos using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "anexos",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column anexos using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "capa",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column capa using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "capa",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column capa using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "partes",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column partes using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "partes",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column partes using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "volumes",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column volumes using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "volumes",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column volumes using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "holdings",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column holdings using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "holdings",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column holdings using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_cod",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_cod using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_cod",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_cod using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_sigla",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_sigla using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_sigla",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_sigla using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_nome using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_nome using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fasciculos using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fasciculos using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "capitulos",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column capitulos using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "capitulos",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column capitulos using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "260c",
+            "columnName": "260c",
+            "query": "\\d\\d\\d\\d\\d",
+            "mode": "regex",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "260c",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "18812"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "1881"
+        }
+      ],
+      "description": "Mass edit cells in column 260c"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": ";il",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:replace(value,\";il\", \":il\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:replace(value,\";il\", \":il\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": "; il",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:replace(value,\"; il\",\":il\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:replace(value,\"; il\",\":il\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": "; ",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:replace(value,\"; \", \";\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:replace(value,\"; \", \";\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": ": ",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:replace(value,\": \", \":\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:replace(value,\": \", \":\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": ":1",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":1\",\";1\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":1\",\";1\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":2\",\";2\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":2\",\";2\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":3\",\";3\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":3\",\";3\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":4\",\";4\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":4\",\";4\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":\",\"$b\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":\",\"$b\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\";\",\"$c\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\";\",\"$c\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "﻿cod_acervo",
+            "columnName": "﻿cod_acervo",
+            "query": "17668",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "500a",
+      "expression": "value.replace(\"$\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 500a using expression value.replace(\"$\",\"\")"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "legendado",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Legendado"
+        }
+      ],
+      "description": "Mass edit cells in column legendado"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "legendado",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "0"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column legendado"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "dublado",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "0"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column dublado"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "colorido",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Colorido"
+        }
+      ],
+      "description": "Mass edit cells in column colorido"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "colorido",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "0"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column colorido"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "sonoro",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Sonoro"
+        }
+      ],
+      "description": "Mass edit cells in column sonoro"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "sonoro",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "0"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column sonoro"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "sonoro",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Sonoro"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "son."
+        }
+      ],
+      "description": "Mass edit cells in column sonoro"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "colorido",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Colorido"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "color."
+        }
+      ],
+      "description": "Mass edit cells in column colorido"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "color.",
+                  "l": "color."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "son.",
+                  "l": "son."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "300",
+            "expression": "value",
+            "columnName": "300",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "\"\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression \"\""
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "color.",
+                  "l": "color."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "son.",
+                  "l": "son."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:value + \"$bson., color.\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:value + \"$bson., color.\""
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "color.",
+                  "l": "color."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [],
+          "fromBlank": true,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column 300"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "color.",
+                  "l": "color."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "300",
+            "expression": "value",
+            "columnName": "300",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "\"\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression \"\""
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "color.",
+                  "l": "color."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:value + \"$bcolor.\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:value + \"$bcolor.\""
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "son.",
+                  "l": "son."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "300",
+            "expression": "value",
+            "columnName": "300",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "\"\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression \"\""
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "sonoro",
+            "expression": "value",
+            "columnName": "sonoro",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "son.",
+                  "l": "son."
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [],
+            "selectBlank": true,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:value + \"$bson.\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:value + \"$bson.\""
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "10"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: 10"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "12"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: 12"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "14"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: 14"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "16"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: 16"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "18"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: 18"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "L"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: Livre"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "faixa_etaria",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Livre"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Faixa etária: Livre"
+        }
+      ],
+      "description": "Mass edit cells in column faixa_etaria"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "< 10 anos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: < 10 anos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "< 12 anos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: < 12 anos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "< 14 anos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: < 14 anos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "< 16 anos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: < 16 anos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "< 18 anos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: < 18 anos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "censura",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Livre para todos os públicos"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "Censura: Livre para todos os públicos"
+        }
+      ],
+      "description": "Mass edit cells in column censura"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-split",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "areacon_nome",
+            "expression": "isBlank(value)",
+            "columnName": "areacon_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome",
+      "guessCellType": false,
+      "removeOriginalColumn": false,
+      "mode": "separator",
+      "separator": "SIAN:",
+      "regex": false,
+      "maxColumns": 2,
+      "description": "Split column areacon_nome by separator"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "areacon_nome",
+            "expression": "isBlank(value)",
+            "columnName": "areacon_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome 2",
+      "expression": "value.replace(\").\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_nome 2 using expression value.replace(\").\",\"\")"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "areacon_nome 2",
+      "newColumnName": "areacon_sian",
+      "description": "Rename column areacon_nome 2 to areacon_sian"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "areacon_nome 1",
+      "description": "Remove column areacon_nome 1"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "areacon_nome",
+            "expression": "isBlank(value)",
+            "columnName": "areacon_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_sian",
+      "expression": "value.replace(\")\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_sian using expression value.replace(\")\",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_sian",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column areacon_sian using expression value.trim()"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "capitulos",
+            "expression": "isBlank(value)",
+            "columnName": "capitulos",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('TODOS OS ASSUNTOS','cod_acervo').cells['650a 2'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "650a_ordenado",
+      "columnInsertIndex": 1,
+      "description": "Create column 650a_ordenado at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('TODOS OS ASSUNTOS','cod_acervo').cells['650a 2'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 2,
+      "description": "Move column 650a_ordenado to position 2"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 3,
+      "description": "Move column 650a_ordenado to position 3"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 4,
+      "description": "Move column 650a_ordenado to position 4"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 5,
+      "description": "Move column 650a_ordenado to position 5"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 6,
+      "description": "Move column 650a_ordenado to position 6"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 7,
+      "description": "Move column 650a_ordenado to position 7"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 8,
+      "description": "Move column 650a_ordenado to position 8"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 9,
+      "description": "Move column 650a_ordenado to position 9"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 10,
+      "description": "Move column 650a_ordenado to position 10"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 11,
+      "description": "Move column 650a_ordenado to position 11"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 12,
+      "description": "Move column 650a_ordenado to position 12"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 13,
+      "description": "Move column 650a_ordenado to position 13"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 14,
+      "description": "Move column 650a_ordenado to position 14"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 15,
+      "description": "Move column 650a_ordenado to position 15"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 16,
+      "description": "Move column 650a_ordenado to position 16"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 17,
+      "description": "Move column 650a_ordenado to position 17"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 18,
+      "description": "Move column 650a_ordenado to position 18"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 19,
+      "description": "Move column 650a_ordenado to position 19"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 20,
+      "description": "Move column 650a_ordenado to position 20"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 21,
+      "description": "Move column 650a_ordenado to position 21"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 22,
+      "description": "Move column 650a_ordenado to position 22"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 23,
+      "description": "Move column 650a_ordenado to position 23"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 24,
+      "description": "Move column 650a_ordenado to position 24"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 25,
+      "description": "Move column 650a_ordenado to position 25"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 26,
+      "description": "Move column 650a_ordenado to position 26"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 27,
+      "description": "Move column 650a_ordenado to position 27"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 28,
+      "description": "Move column 650a_ordenado to position 28"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 29,
+      "description": "Move column 650a_ordenado to position 29"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 30,
+      "description": "Move column 650a_ordenado to position 30"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 31,
+      "description": "Move column 650a_ordenado to position 31"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 32,
+      "description": "Move column 650a_ordenado to position 32"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 33,
+      "description": "Move column 650a_ordenado to position 33"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 34,
+      "description": "Move column 650a_ordenado to position 34"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 35,
+      "description": "Move column 650a_ordenado to position 35"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 36,
+      "description": "Move column 650a_ordenado to position 36"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 37,
+      "description": "Move column 650a_ordenado to position 37"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 38,
+      "description": "Move column 650a_ordenado to position 38"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 39,
+      "description": "Move column 650a_ordenado to position 39"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 40,
+      "description": "Move column 650a_ordenado to position 40"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 41,
+      "description": "Move column 650a_ordenado to position 41"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 42,
+      "description": "Move column 650a_ordenado to position 42"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 43,
+      "description": "Move column 650a_ordenado to position 43"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 44,
+      "description": "Move column 650a_ordenado to position 44"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 45,
+      "description": "Move column 650a_ordenado to position 45"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 46,
+      "description": "Move column 650a_ordenado to position 46"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "tipo",
+            "expression": "value",
+            "columnName": "tipo",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "CDR",
+                  "l": "CDR"
+                }
+              },
+              {
+                "v": {
+                  "v": "DVD",
+                  "l": "DVD"
+                }
+              },
+              {
+                "v": {
+                  "v": "CDS",
+                  "l": "CDS"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "colorido",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [],
+          "fromBlank": true,
+          "fromError": false,
+          "to": "p&b"
+        }
+      ],
+      "description": "Mass edit cells in column colorido"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "tipo",
+            "expression": "value",
+            "columnName": "tipo",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "CDR",
+                  "l": "CDR"
+                }
+              },
+              {
+                "v": {
+                  "v": "DVD",
+                  "l": "DVD"
+                }
+              },
+              {
+                "v": {
+                  "v": "CDS",
+                  "l": "CDS"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "colorido",
+            "expression": "value",
+            "columnName": "colorido",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "p&b",
+                  "l": "p&b"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "grel:value + '$bp&b'",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression grel:value + '$bp&b'"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('sistema_tv','cod_acervo').cells['sistema_tv'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "sistema_tv",
+      "columnInsertIndex": 1,
+      "description": "Create column sistema_tv at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('sistema_tv','cod_acervo').cells['sistema_tv'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 2,
+      "description": "Move column sistema_tv to position 2"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 3,
+      "description": "Move column sistema_tv to position 3"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 4,
+      "description": "Move column sistema_tv to position 4"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 5,
+      "description": "Move column sistema_tv to position 5"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 6,
+      "description": "Move column sistema_tv to position 6"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 7,
+      "description": "Move column sistema_tv to position 7"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 8,
+      "description": "Move column sistema_tv to position 8"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 9,
+      "description": "Move column sistema_tv to position 9"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 10,
+      "description": "Move column sistema_tv to position 10"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 11,
+      "description": "Move column sistema_tv to position 11"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 12,
+      "description": "Move column sistema_tv to position 12"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 13,
+      "description": "Move column sistema_tv to position 13"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 14,
+      "description": "Move column sistema_tv to position 14"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 15,
+      "description": "Move column sistema_tv to position 15"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 16,
+      "description": "Move column sistema_tv to position 16"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 17,
+      "description": "Move column sistema_tv to position 17"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 18,
+      "description": "Move column sistema_tv to position 18"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 19,
+      "description": "Move column sistema_tv to position 19"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 20,
+      "description": "Move column sistema_tv to position 20"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 21,
+      "description": "Move column sistema_tv to position 21"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 22,
+      "description": "Move column sistema_tv to position 22"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 23,
+      "description": "Move column sistema_tv to position 23"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 24,
+      "description": "Move column sistema_tv to position 24"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 25,
+      "description": "Move column sistema_tv to position 25"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "sistema_tv",
+      "index": 26,
+      "description": "Move column sistema_tv to position 26"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "sistema_tv",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "NULL"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column sistema_tv"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "sistema_tv",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "3"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "PAL-M"
+        }
+      ],
+      "description": "Mass edit cells in column sistema_tv"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": "(.*?\\$b)(.*?\\$b)",
+            "mode": "regex",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\"$bson.$bp&b\",\"$bson. p&b\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\"$bson.$bp&b\",\"$bson. p&b\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "holdings",
+      "expression": "grel:value.find(/.*?\\$g/)[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "class_part",
+      "columnInsertIndex": 56,
+      "description": "Create column class_part at index 56 based on column holdings using expression grel:value.find(/.*?\\$g/)[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "class_part",
+      "expression": "value.replace(\"$g\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column class_part using expression value.replace(\"$g\",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "class_part",
+      "expression": "value.replace(/\\$a.*?\\$f/,\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column class_part using expression value.replace(/\\$a.*?\\$f/,\"\")"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('analiticasfilha','cod_acervo_cla').cells['analiticasfilha'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "analiticasfilha",
+      "columnInsertIndex": 1,
+      "description": "Create column analiticasfilha at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('analiticasfilha','cod_acervo_cla').cells['analiticasfilha'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "analiticasfilha",
+      "index": 63,
+      "description": "Move column analiticasfilha to position 63"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "﻿cod_acervo",
+            "columnName": "﻿cod_acervo",
+            "query": "16779",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "500a",
+      "expression": "value.replace(\". \",\".  \")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 500a using expression value.replace(\". \",\".  \")"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "legendado",
+      "newColumnName": "546a",
+      "description": "Rename column legendado to 546a"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 30,
+      "description": "Move column 546a to position 30"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 31,
+      "description": "Move column 546a to position 31"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 32,
+      "description": "Move column 546a to position 32"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 33,
+      "description": "Move column 546a to position 33"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 34,
+      "description": "Move column 546a to position 34"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 35,
+      "description": "Move column 546a to position 35"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 36,
+      "description": "Move column 546a to position 36"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 37,
+      "description": "Move column 546a to position 37"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 38,
+      "description": "Move column 546a to position 38"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 39,
+      "description": "Move column 546a to position 39"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 40,
+      "description": "Move column 546a to position 40"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 41,
+      "description": "Move column 546a to position 41"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 42,
+      "description": "Move column 546a to position 42"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "546a",
+      "index": 43,
+      "description": "Move column 546a to position 43"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('notas','cod_acervo').cells['notas_join'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "notas_novo",
+      "columnInsertIndex": 1,
+      "description": "Create column notas_novo at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('notas','cod_acervo').cells['notas_join'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 2,
+      "description": "Move column notas_novo to position 2"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 3,
+      "description": "Move column notas_novo to position 3"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 4,
+      "description": "Move column notas_novo to position 4"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 5,
+      "description": "Move column notas_novo to position 5"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 6,
+      "description": "Move column notas_novo to position 6"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 7,
+      "description": "Move column notas_novo to position 7"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 8,
+      "description": "Move column notas_novo to position 8"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 9,
+      "description": "Move column notas_novo to position 9"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 10,
+      "description": "Move column notas_novo to position 10"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 11,
+      "description": "Move column notas_novo to position 11"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 12,
+      "description": "Move column notas_novo to position 12"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 13,
+      "description": "Move column notas_novo to position 13"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 14,
+      "description": "Move column notas_novo to position 14"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 15,
+      "description": "Move column notas_novo to position 15"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 16,
+      "description": "Move column notas_novo to position 16"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 17,
+      "description": "Move column notas_novo to position 17"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 18,
+      "description": "Move column notas_novo to position 18"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 19,
+      "description": "Move column notas_novo to position 19"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 20,
+      "description": "Move column notas_novo to position 20"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 21,
+      "description": "Move column notas_novo to position 21"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 22,
+      "description": "Move column notas_novo to position 22"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 23,
+      "description": "Move column notas_novo to position 23"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 24,
+      "description": "Move column notas_novo to position 24"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 25,
+      "description": "Move column notas_novo to position 25"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 26,
+      "description": "Move column notas_novo to position 26"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 27,
+      "description": "Move column notas_novo to position 27"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 28,
+      "description": "Move column notas_novo to position 28"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 29,
+      "description": "Move column notas_novo to position 29"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 30,
+      "description": "Move column notas_novo to position 30"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 31,
+      "description": "Move column notas_novo to position 31"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 32,
+      "description": "Move column notas_novo to position 32"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 33,
+      "description": "Move column notas_novo to position 33"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 34,
+      "description": "Move column notas_novo to position 34"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 35,
+      "description": "Move column notas_novo to position 35"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 36,
+      "description": "Move column notas_novo to position 36"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 37,
+      "description": "Move column notas_novo to position 37"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 38,
+      "description": "Move column notas_novo to position 38"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 39,
+      "description": "Move column notas_novo to position 39"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "notas_novo",
+      "index": 40,
+      "description": "Move column notas_novo to position 40"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "500a",
+      "newColumnName": "500a_old",
+      "description": "Rename column 500a to 500a_old"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "notas_novo",
+      "newColumnName": "500a",
+      "description": "Rename column notas_novo to 500a"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 39,
+      "description": "Move column 500a to position 39"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "5"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "6"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "4"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "5"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "3"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "4"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "2"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "3"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "2"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "items",
+      "newColumnName": "items_old",
+      "description": "Rename column items to items_old"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"Ano , \",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"Ano , \",\"\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"BC6\",\"BC\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"BC6\",\"BC\")"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('itens_todo','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('items_todo','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('items_todo','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\" . Número no Sysweb: $\",\"$\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\" . Número no Sysweb: $\",\"$\")"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "items",
+            "columnName": "items",
+            "query": ", t. $",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"$hv. , t. $\",\"$h$\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"$hv. , t. $\",\"$h$\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "items",
+            "columnName": "items",
+            "query": ", t. $",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\", t. $\",\"$\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\", t. $\",\"$\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "items",
+            "columnName": "items",
+            "query": "$hv. ,",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"$hv. , t\",\"$ht\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"$hv. , t\",\"$ht\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "items",
+            "columnName": "items",
+            "query": "$x. Número no Sysweb: $",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"$x. Número no Sysweb: $\",\"$x$\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"$x. Número no Sysweb: $\",\"$x$\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"$x . Número\",\"$xNúmero\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"$x . Número\",\"$xNúmero\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "items",
+            "columnName": "items",
+            "query": "\\",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\"\\\\a\",\"/a\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\"\\\\a\",\"/a\")"
+    }
+  ]

@@ -1,0 +1,2917 @@
+[
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Fancês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Alemão/Português--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ger--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Catalão--Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "cat--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol--Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês--Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Trilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [],
+          "fromBlank": true,
+          "fromError": false,
+          "to": "und"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Português--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Francês--Inglês--Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "fre--eng--mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Galego"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gal"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Galego--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "gal--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês/Português--Português/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut--por--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Holandês/Português--Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "dut--por--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês--Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Italiano/Português--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "ita--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Multilingüe"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "mul"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Multilingüe--Português"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "mul--por"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português--Português/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português--Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Alemão"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--ger"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Espanhol"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--spa"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Francês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--fre"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Inglês"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--eng"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Português/Italiano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "por--ita"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Espanhol/Basco"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "spa--baq"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Ucraniano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--ukr"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "008-35-37",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "Inglês/Espanhol/Coreano"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "eng--spa--kor"
+        }
+      ],
+      "description": "Mass edit cells in column 008-35-37"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "090b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 090b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "090b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 090b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "020a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 020a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "020a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 020a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "020aOld",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 020aOld using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "020aOld",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 020aOld using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "titulo",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column titulo using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "titulo",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column titulo using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "245b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 245b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "246a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 246a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "246a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 246a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "250a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 250a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "250a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 250a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260b",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260b using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260b",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260b using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260c",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260c using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "260c",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 260c using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "numero_norma",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column numero_norma using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300e",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300e using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "300e",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300e using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "306a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 306a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "306a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 306a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490a",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490a using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490a",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490a using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490v",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490v using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "490v",
+      "expression": "value.replace(/\\s+/,' ')",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 490v using expression value.replace(/\\s+/,' ')"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": "",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\":\",\"$b\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\":\",\"$b\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "300",
+            "columnName": "300",
+            "query": "",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "300",
+      "expression": "value.replace(\";\",\"$c\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 300 using expression value.replace(\";\",\"$c\")"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "fasciculos",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g;-;$hv.,n.$g"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": ""
+        }
+      ],
+      "description": "Mass edit cells in column fasciculos"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "fonte_nome",
+      "expression": "grel:cells['fonte_nome'].value + '$hv.' + cells['fasc_volumes'].value +'n.' + cells['fasc_numero'].value + '$g' + cells['fasc_data'].value value",
+      "onError": "set-to-blank",
+      "newColumnName": "fonte_completa",
+      "columnInsertIndex": 60,
+      "description": "Create column fonte_completa at index 60 based on column fonte_nome using expression grel:cells['fonte_nome'].value + '$hv.' + cells['fasc_volumes'].value +'n.' + cells['fasc_numero'].value + '$g' + cells['fasc_data'].value value"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "fonte_completa",
+      "index": 59,
+      "description": "Move column fonte_completa to position 59"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "fonte_completa",
+            "expression": "isBlank(value)",
+            "columnName": "fonte_completa",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": true,
+                  "l": "true"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fonte_completa",
+      "expression": "grel:cells['fonte_nome'].value + '$hv.' + cells['fasc_volumes'].value +'$g' + cells['fasc_data'].value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fonte_completa using expression grel:cells['fonte_nome'].value + '$hv.' + cells['fasc_volumes'].value +'$g' + cells['fasc_data'].value"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "fonte_completa",
+            "expression": "isBlank(value)",
+            "columnName": "fonte_completa",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": true,
+                  "l": "true"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fonte_completa",
+      "expression": "grel:cells['fonte_nome'].value + '$hn.' + cells['fasc_numero'].value + '$g' + cells['fasc_data'].value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fonte_completa using expression grel:cells['fonte_nome'].value + '$hn.' + cells['fasc_numero'].value + '$g' + cells['fasc_data'].value"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "fonte_completa",
+            "expression": "isBlank(value)",
+            "columnName": "fonte_completa",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": true,
+                  "l": "true"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fonte_completa",
+      "expression": "grel:cells['fonte_nome'].value + '$g' + cells['fasc_data'].value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fonte_completa using expression grel:cells['fonte_nome'].value + '$g' + cells['fasc_data'].value"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "fonte_completa",
+            "expression": "isBlank(value)",
+            "columnName": "fonte_completa",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": true,
+                  "l": "true"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          },
+          {
+            "type": "list",
+            "name": "fonte_nome",
+            "expression": "isBlank(value)",
+            "columnName": "fonte_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "fonte_completa",
+      "expression": "grel:cells['fonte_nome'].value",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column fonte_completa using expression grel:cells['fonte_nome'].value"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "text",
+            "name": "cod_fonte",
+            "columnName": "cod_fonte",
+            "query": "NULL",
+            "mode": "text",
+            "caseSensitive": false,
+            "invert": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "cod_fonte",
+      "expression": "\"\"",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column cod_fonte using expression \"\""
+    },
+    {
+      "op": "core/column-split",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "areacon_nome",
+            "expression": "isBlank(value)",
+            "columnName": "areacon_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome",
+      "guessCellType": false,
+      "removeOriginalColumn": false,
+      "mode": "separator",
+      "separator": "SIAN:",
+      "regex": false,
+      "maxColumns": 2,
+      "description": "Split column areacon_nome by separator"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "areacon_nome 1",
+      "description": "Remove column areacon_nome 1"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "areacon_nome",
+            "expression": "isBlank(value)",
+            "columnName": "areacon_nome",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "areacon_nome 2",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            " BR RJANRIO N9)"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "BR RJANRIO N9"
+        }
+      ],
+      "description": "Mass edit cells in column areacon_nome 2"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('TODOS OS ASSUNTOS','cod_acervo').cells['650a 2'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "650a_ordenado",
+      "columnInsertIndex": 1,
+      "description": "Create column 650a_ordenado at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('TODOS OS ASSUNTOS','cod_acervo').cells['650a 2'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 2,
+      "description": "Move column 650a_ordenado to position 2"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 3,
+      "description": "Move column 650a_ordenado to position 3"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 4,
+      "description": "Move column 650a_ordenado to position 4"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 5,
+      "description": "Move column 650a_ordenado to position 5"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 6,
+      "description": "Move column 650a_ordenado to position 6"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 7,
+      "description": "Move column 650a_ordenado to position 7"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 8,
+      "description": "Move column 650a_ordenado to position 8"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 9,
+      "description": "Move column 650a_ordenado to position 9"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 10,
+      "description": "Move column 650a_ordenado to position 10"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 11,
+      "description": "Move column 650a_ordenado to position 11"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 12,
+      "description": "Move column 650a_ordenado to position 12"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 13,
+      "description": "Move column 650a_ordenado to position 13"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 14,
+      "description": "Move column 650a_ordenado to position 14"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 15,
+      "description": "Move column 650a_ordenado to position 15"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 16,
+      "description": "Move column 650a_ordenado to position 16"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 17,
+      "description": "Move column 650a_ordenado to position 17"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 18,
+      "description": "Move column 650a_ordenado to position 18"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 19,
+      "description": "Move column 650a_ordenado to position 19"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 20,
+      "description": "Move column 650a_ordenado to position 20"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 21,
+      "description": "Move column 650a_ordenado to position 21"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 22,
+      "description": "Move column 650a_ordenado to position 22"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 23,
+      "description": "Move column 650a_ordenado to position 23"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 24,
+      "description": "Move column 650a_ordenado to position 24"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 25,
+      "description": "Move column 650a_ordenado to position 25"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 26,
+      "description": "Move column 650a_ordenado to position 26"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 27,
+      "description": "Move column 650a_ordenado to position 27"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 28,
+      "description": "Move column 650a_ordenado to position 28"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 29,
+      "description": "Move column 650a_ordenado to position 29"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 30,
+      "description": "Move column 650a_ordenado to position 30"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 31,
+      "description": "Move column 650a_ordenado to position 31"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 32,
+      "description": "Move column 650a_ordenado to position 32"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 33,
+      "description": "Move column 650a_ordenado to position 33"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 34,
+      "description": "Move column 650a_ordenado to position 34"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 35,
+      "description": "Move column 650a_ordenado to position 35"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 36,
+      "description": "Move column 650a_ordenado to position 36"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 37,
+      "description": "Move column 650a_ordenado to position 37"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 38,
+      "description": "Move column 650a_ordenado to position 38"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 39,
+      "description": "Move column 650a_ordenado to position 39"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 40,
+      "description": "Move column 650a_ordenado to position 40"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 41,
+      "description": "Move column 650a_ordenado to position 41"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 42,
+      "description": "Move column 650a_ordenado to position 42"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 43,
+      "description": "Move column 650a_ordenado to position 43"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 44,
+      "description": "Move column 650a_ordenado to position 44"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 45,
+      "description": "Move column 650a_ordenado to position 45"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "650a_ordenado",
+      "index": 46,
+      "description": "Move column 650a_ordenado to position 46"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('analiticaspai','cod_acervo').cells['fonte'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "analiticaspai",
+      "columnInsertIndex": 1,
+      "description": "Create column analiticaspai at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('analiticaspai','cod_acervo').cells['fonte'].value[0]"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "analiticaspai",
+      "index": 69,
+      "description": "Move column analiticaspai to position 69"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('notas','cod_acervo').cells['notas_join'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "notas",
+      "columnInsertIndex": 1,
+      "description": "Create column notas at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('notas','cod_acervo').cells['notas_join'].value[0]"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "500a",
+      "newColumnName": "500a_old",
+      "description": "Rename column 500a to 500a_old"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "notas",
+      "newColumnName": "500a",
+      "description": "Rename column notas to 500a"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 2,
+      "description": "Move column 500a to position 2"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 3,
+      "description": "Move column 500a to position 3"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 4,
+      "description": "Move column 500a to position 4"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 5,
+      "description": "Move column 500a to position 5"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 6,
+      "description": "Move column 500a to position 6"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 7,
+      "description": "Move column 500a to position 7"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 8,
+      "description": "Move column 500a to position 8"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 9,
+      "description": "Move column 500a to position 9"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 10,
+      "description": "Move column 500a to position 10"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 11,
+      "description": "Move column 500a to position 11"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 12,
+      "description": "Move column 500a to position 12"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 13,
+      "description": "Move column 500a to position 13"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 14,
+      "description": "Move column 500a to position 14"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 15,
+      "description": "Move column 500a to position 15"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 16,
+      "description": "Move column 500a to position 16"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 17,
+      "description": "Move column 500a to position 17"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 18,
+      "description": "Move column 500a to position 18"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 19,
+      "description": "Move column 500a to position 19"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 20,
+      "description": "Move column 500a to position 20"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 21,
+      "description": "Move column 500a to position 21"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 22,
+      "description": "Move column 500a to position 22"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 23,
+      "description": "Move column 500a to position 23"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 24,
+      "description": "Move column 500a to position 24"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 25,
+      "description": "Move column 500a to position 25"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 26,
+      "description": "Move column 500a to position 26"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 27,
+      "description": "Move column 500a to position 27"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 28,
+      "description": "Move column 500a to position 28"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 29,
+      "description": "Move column 500a to position 29"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 30,
+      "description": "Move column 500a to position 30"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 31,
+      "description": "Move column 500a to position 31"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 32,
+      "description": "Move column 500a to position 32"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 33,
+      "description": "Move column 500a to position 33"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 34,
+      "description": "Move column 500a to position 34"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 35,
+      "description": "Move column 500a to position 35"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 36,
+      "description": "Move column 500a to position 36"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 37,
+      "description": "Move column 500a to position 37"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 38,
+      "description": "Move column 500a to position 38"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "500a",
+      "index": 39,
+      "description": "Move column 500a to position 39"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "500a",
+      "expression": "value.replace(\"$\",\"\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column 500a using expression value.replace(\"$\",\"\")"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "3"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "4"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "2"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "3"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/mass-edit",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "2452",
+      "expression": "value",
+      "edits": [
+        {
+          "from": [
+            "1"
+          ],
+          "fromBlank": false,
+          "fromError": false,
+          "to": "2"
+        }
+      ],
+      "description": "Mass edit cells in column 2452"
+    },
+    {
+      "op": "core/column-rename",
+      "oldColumnName": "items",
+      "newColumnName": "items_old",
+      "description": "Rename column items to items_old"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 71,
+      "description": "Move column items to position 71"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 70,
+      "description": "Move column items to position 70"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 69,
+      "description": "Move column items to position 69"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 68,
+      "description": "Move column items to position 68"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 67,
+      "description": "Move column items to position 67"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 66,
+      "description": "Move column items to position 66"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 54,
+      "description": "Move column items to position 54"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "tipo",
+      "expression": "grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 2,
+      "description": "Create column items at index 2 based on column tipo using expression grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('itens_parte','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 71,
+      "description": "Move column items to position 71"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 70,
+      "description": "Move column items to position 70"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 69,
+      "description": "Move column items to position 69"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 68,
+      "description": "Move column items to position 68"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 67,
+      "description": "Move column items to position 67"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 66,
+      "description": "Move column items to position 66"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 54,
+      "description": "Move column items to position 54"
+    },
+    {
+      "op": "core/column-removal",
+      "columnName": "items",
+      "description": "Remove column items"
+    },
+    {
+      "op": "core/column-addition",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "baseColumnName": "﻿cod_acervo",
+      "expression": "grel:cell.cross('items_parte','cod_acervo').cells['items'].value[0]",
+      "onError": "set-to-blank",
+      "newColumnName": "items",
+      "columnInsertIndex": 1,
+      "description": "Create column items at index 1 based on column ﻿cod_acervo using expression grel:cell.cross('items_parte','cod_acervo').cells['items'].value[0]"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "items",
+            "expression": "isBlank(value)",
+            "columnName": "items",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": false,
+                  "l": "false"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "value.replace(\" . Número no Sysweb: $\",\"$\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression value.replace(\" . Número no Sysweb: $\",\"$\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "items",
+      "expression": "grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column items using expression grel:replace(value,\"$y\",\"$y\"+cells['tipo'].value)"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 71,
+      "description": "Move column items to position 71"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 70,
+      "description": "Move column items to position 70"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 69,
+      "description": "Move column items to position 69"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 68,
+      "description": "Move column items to position 68"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 67,
+      "description": "Move column items to position 67"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 66,
+      "description": "Move column items to position 66"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 65,
+      "description": "Move column items to position 65"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 64,
+      "description": "Move column items to position 64"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 63,
+      "description": "Move column items to position 63"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 62,
+      "description": "Move column items to position 62"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 61,
+      "description": "Move column items to position 61"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 60,
+      "description": "Move column items to position 60"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 59,
+      "description": "Move column items to position 59"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 58,
+      "description": "Move column items to position 58"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 57,
+      "description": "Move column items to position 57"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 56,
+      "description": "Move column items to position 56"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 55,
+      "description": "Move column items to position 55"
+    },
+    {
+      "op": "core/column-move",
+      "columnName": "items",
+      "index": 54,
+      "description": "Move column items to position 54"
+    }
+  ]
