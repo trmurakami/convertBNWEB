@@ -51,3 +51,7 @@ Códigos e conversor do BNWEB para MARC21
 
     Erro em exemplares com mais de um arquivo digital
     http://biblioteca.an.gov.br/bnweb/upload/pasta2\acervo18092/18092_1129.pdf
+
+    Remover linhas duplicadas:
+    Pesquisar por: ^(.*)(\r?\n\1)+$
+    Substitutir por: \1
