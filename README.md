@@ -41,6 +41,9 @@ Códigos e conversor do BNWEB para MARC21
     Pesquisar por: ^(=500.*?)\|(.*)$
     Subtituir por: \1\r\n=500  \\\\\$a\2
 
+    Pesquisar por: ^(=520.*?)\|(.*)$
+    Subtituir por: \1\r\n=520  \\\\\$a\2
+
     Excluir 774 vazio
     Pesquisar por: \r\n=774  0\\\$t\$w.*\r\n
     Substituir por: \r\n
