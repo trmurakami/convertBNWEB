@@ -56,6 +56,10 @@ Códigos e conversor do BNWEB para MARC21
     Pesquisar por: ^(.*)(\r?\n\1)+$
     Substitutir por: \1
 
+    Dois pontos nos subtitulos
+    Pesquisar por: ^(=245.*?)\|\|(.*)$
+    Substituir por: \1\:\2
+
 # Queries por campo
 
     Selecionar linhas de resumo com quebra de linha: 
