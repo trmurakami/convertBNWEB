@@ -41,7 +41,7 @@ SELECT
 	TRIM(ISNULL(REPLACE(ace.notas, char(9), ''),'')) as '500a',
 	TRIM(ISNULL(ace.grau,'')) as '502b',
 	TRIM(ISNULL(ace.conteudo,'')) as '505a',
-	ISNULL(REPLACE(ace.resumo, char(9), ''), '') as '520a',
+	ISNULL(LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(ace.resumo, CHAR(9), ''), CHAR(10), '|'), CHAR(13), '|'))), '') as '520a',
 	TRIM(ISNULL(ace.notas_disp,'')) as '591a',
 	ISNULL(ace.congresso, '') as '647a',
 	ISNULL(ass.assuntos, '') as '650a',	

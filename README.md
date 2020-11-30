@@ -55,3 +55,10 @@ Códigos e conversor do BNWEB para MARC21
     Remover linhas duplicadas:
     Pesquisar por: ^(.*)(\r?\n\1)+$
     Substitutir por: \1
+
+# Queries por campo
+
+    Selecionar linhas de resumo com quebra de linha: 
+        SELECT [cod_acervo], LTRIM(RTRIM(REPLACE(REPLACE(REPLACE(resumo, CHAR(9), ''), CHAR(10), '|'), CHAR(13), '|'))) as resumo FROM [bnweb2].[dbo].[tbibace0] WHERE resumo LIKE '%' + CHAR(13)+CHAR(10) + '%'
+    Selecionar subtitulo com dois pontos: 
+        SELECT [cod_acervo], titulo_subtit FROM [bnweb2].[dbo].[tbibace0] WHERE titulo_subtit LIKE '%:%'
