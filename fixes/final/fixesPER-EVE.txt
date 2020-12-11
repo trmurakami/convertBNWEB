@@ -112,7 +112,6 @@ end
 
 marc_add('505', ind1, '0', a , $.505a)
 marc_add('520', a , $.520a)
-marc_add('520', a , $.partes)
 marc_add('591', a , $.591a)
 
 marc_add('592',  ind1, '4',  b , $.areacon_nome, x , $.areacon_sian, z, $.areacon_sigla)
