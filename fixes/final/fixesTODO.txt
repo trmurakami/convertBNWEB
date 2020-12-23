@@ -30,6 +30,8 @@ marc_add('041', a , $.008-35-37.2)
 
 marc_add('090', a , $.090a)
 
+marc_add('090', b , $.090b)
+
 split_field('092a', ';-;')
 copy_field("092a","classificacao")
 substring("092a.0",0,3)
