@@ -68,6 +68,10 @@ Códigos e conversor do BNWEB para MARC21
     Pesquisar por: ^(=245.*?)\|\|(.*)$
     Substituir por: \1\:\2
 
+    Data
+    Pesquisar por: (=008  )(\d\d\d\d\d\d)(.*?)\r\n(=009  )(\d\d\d\d\d\d)
+    Substituir por: \1\5\3
+
 # Queries por campo
 
     Selecionar linhas de resumo com quebra de linha: 

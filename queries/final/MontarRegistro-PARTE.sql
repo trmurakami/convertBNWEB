@@ -110,7 +110,7 @@ LEFT JOIN
 		FROM [bnweb2].[dbo].[tbibxau0] tbaut
 		LEFT JOIN [bnweb2].[dbo].[tbibaut0] aut ON tbaut.cod_autor=aut.cod_autor
 		LEFT JOIN [bnweb2].[dbo].[tbibqua0] qua ON tbaut.cod_qualif=qua.cod_qualif
-		WHERE tipo_entrada = '2'
+		WHERE tipo_entrada != '1'
 		ORDER BY posicao ASC
 		) as Autores
 	GROUP BY codigo
